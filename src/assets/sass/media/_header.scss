@@ -1,0 +1,52 @@
+@media (min-width: 375px) {
+    .header {
+        .logo {
+            img {
+                min-width: 100px;
+            }
+        }
+        .phone {
+            &__link {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (min-width: 425px) {
+    .header {
+        .logo {
+            img {
+                min-width: 120px;
+            }
+        }
+        .phone {
+            &__link {
+                font-size: 18px;
+            }
+            &__workhours {
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+
+        .menu__btn {
+            width: 35px;
+            height: 35px;
+            border: 1px solid $black;
+            border-radius: 5px;
+            background: $white;
+            position: relative;
+            &::after {
+              content:'';
+              position: absolute;
+              width: 25px;
+              height: 1px;
+              border-radius: 50px;
+              background: $green;
+              top: 10px;
+              left: 4px;
+              box-shadow: 0 6px 0 0 $green, 0 12px 0 0 $green;
+            }
+        }
+    }
+}
