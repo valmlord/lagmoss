@@ -3,6 +3,9 @@
         &__top {
             display: none;
         }
+        .bottom {
+            display: none;
+        }
     }
 }
 
@@ -22,11 +25,6 @@
 }
 @media (min-width: 425px) {
     .header {
-        .logo {
-            img {
-                min-width: 120px;
-            }
-        }
         .phone {
             &__link {
                 font-size: 18px;
@@ -64,8 +62,9 @@
         &__top {
             display: block;
         }
-        .menu__btn {
-            display: none;
+
+        .bottom {
+            display: block;
         }
     }
 }

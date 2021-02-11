@@ -1,7 +1,9 @@
 @import "base/variables";
 @import "libs/fonts";
 @import "blocks/header";
-@import "media/header";
+@import "media/header_media";
+@import "blocks/buttons";
+@import "media/buttons_media";
 
 // Basic
 
@@ -12,14 +14,6 @@
   position: relative;
   box-sizing: border-box;
 
-  a,
-  button,
-  input,
-  textarea,
-  select {
-    outline: none;
-  }
-
   ul {
     list-style-type: none;
     margin: 0;
@@ -29,8 +23,18 @@
   a {
     text-decoration: none;
   }
+
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+  }
 }
 
 .container {
   padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }        
 }
