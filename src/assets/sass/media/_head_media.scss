@@ -1,0 +1,33 @@
+@media (min-width: 375px) {
+    .head {
+        .top-slider__item {
+            background-image: url('../img/head/head_bg-large.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            min-height: 250px;
+        }
+    }
+}
+
+@media (min-width: 425px) {
+    .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-tablet.png');
+                position: absolute;
+                top: 20%;
+                right: -1%;
+                z-index: 1;
+            }
+        }
+
+        .top-slider__item {
+            background-image: url('../img/head/head_bg-tablet.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            min-height: 440px;
+        }
+    }
+}

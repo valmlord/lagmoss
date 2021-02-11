@@ -28,5 +28,15 @@
       background: $green;
       color: $white;
       margin-top: 30px;
+      margin-right: 30px;
+      &:hover {
+        transition: 0.3 all;
+        background: #01B263;
+      }  
+      &:active {
+        transition: 0.3 all;
+        background: #014023;
+      }
+      z-index: 99999;
     }
   }
