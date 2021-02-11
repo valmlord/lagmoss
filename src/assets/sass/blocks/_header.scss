@@ -1,0 +1,48 @@
+.header {
+  padding: 15px 0;
+  &__bottom {
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    &__link {
+      font-size: 12px;
+      color: $green;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    &__workhours {
+      font-size: 8px;
+      color: $black;
+    }
+  }
+
+  .cart {
+    color: $black;
+  }
+  .menu__btn {
+    width: 25px;
+    height: 25px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    background: $white;
+    position: relative;
+    &::after {
+      content:'';
+      position: absolute;
+      width: 13px;
+      height: 1px;
+      border-radius: 10px;
+      background: $green;
+      top: 7px;
+      left: 5px;
+      box-shadow: 0 4px 0 0 $green, 0 8px 0 0 $green;
+    }
+  }
+}
