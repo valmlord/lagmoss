@@ -1,14 +1,28 @@
 .categories {
-    padding: 15px 0;
+    padding: 30px 0;
+
+    .title {
+        &-section {
+            font-size: 18px;
+
+            .underline {
+                border-bottom: 3px solid $green;
+            }
+        }
+    }
 
     &__cards {
         display: flex;
         flex-direction: column;
+        margin-top: 15px;
     }
 
     .mini {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 135px 135px;
+        grid-template-rows: 110px;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
 
         &__card {
             min-width: 135px;
@@ -23,7 +37,7 @@
             }
 
             &-storage {
-                min-height: 61px;
+                min-height: 81px;
 
                 &::before {
                     content: url('../img/categories/storage-mobile.jpg');
@@ -44,6 +58,14 @@
             &-beds {
                 &::before {
                     content: url('../img/categories/beds-mobile.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+
+            &-accessories {
+                &::before {
+                    content: url('../img/categories/accessories-mobile.jpg');
                     background-size: cover;
                     background-position: center;
                 }
