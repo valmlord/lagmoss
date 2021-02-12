@@ -6,6 +6,8 @@
 @import "media/buttons_media";
 @import "blocks/head";
 @import "media/head_media";
+@import "blocks/categories";
+@import "media/categories_media";
 
 // Basic
 
@@ -39,18 +41,18 @@
 @media (min-width: 768px) {
   .container {
     padding: 0 30px;
-  }        
+  }
 }
 
 @media (min-width: 1000px) {
   .container {
     padding: 0 40px;
-  }        
+  }
 }
 
 @media (min-width: 1170px) {
   .container {
     margin: 0 auto;
     max-width: 1170px;
-  }        
+  }
 }

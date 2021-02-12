@@ -1,17 +1,8 @@
 .head {
     position: relative;
 
-    .container {
-        &:before {
-            content: url('../img/head/tree.png');
-            position: absolute;
-            top: 20%;
-            right: -2%;
-            z-index: 1;
-        }
-    }
-
     .title {
+        margin-top: 52px;
         text-align: right;
         font-size: 22px;
         font-weight: 500;

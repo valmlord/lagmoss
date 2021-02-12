@@ -31,3 +31,60 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .head {
+        .top-slider__item {
+            background-image: url('../img/head/head_bg-tablet.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            min-height: 440px;
+        }
+    }
+}
+
+@media (min-width: 1100px) {
+    .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-tablet.png');
+                position: absolute;
+                top: 18%;
+                right: -13%;
+                z-index: 1;
+                min-height: 533px;
+            }
+        }
+
+        .top-slider__item {
+            background-image: url('../img/head/head_bg-desktop.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            min-height: 548px;
+        }
+
+        .slick-dots {
+            position: absolute;
+            top: 254px;
+            left: 30px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+
+            button {
+                font-size: 0;
+                border-radius: 50px;
+                width: 13px;
+                height: 13px;
+                background: $brown;
+                border-color: $green;
+
+                &:active {
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}
