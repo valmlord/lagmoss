@@ -1,42 +1,46 @@
 .btn {
-    &-menu {
-      width: 25px;
-      height: 25px;
-      border: 1px solid $black;
-      border-radius: 5px;
-      background: $white;
-      position: relative;
-      &::after {
-        content:'';
-        position: absolute;
-        width: 15px;
-        height: 1px;
-        border-radius: 10px;
-        background: $green;
-        top: 7px;
-        left: 4px;
-        box-shadow: 0 4px 0 0 $green, 0 8px 0 0 $green;
-      }
-    }
-    &-main {
-      width: 150px;
-      height: 40px;
-      border-radius: 5px;
-      border: none;
-      font-size: 10px;
-      text-transform: uppercase;
+  &-menu {
+    width: 25px;
+    height: 25px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    background: $white;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 1px;
+      border-radius: 10px;
       background: $green;
-      color: $white;
-      margin-top: 30px;
-      margin-right: 30px;
-      &:hover {
-        transition: 0.3 all;
-        background: #01B263;
-      }  
-      &:active {
-        transition: 0.3 all;
-        background: #014023;
-      }
-      z-index: 99999;
+      top: 7px;
+      left: 4px;
+      box-shadow: 0 4px 0 0 $green, 0 8px 0 0 $green;
     }
   }
+
+  &-main {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: $green;
+    color: $white;
+    margin-top: 30px;
+
+    &:hover {
+      transition: 0.3 all;
+      background: #01B263;
+    }
+
+    &:active {
+      transition: 0.3 all;
+      background: #014023;
+    }
+
+    z-index: 99999;
+  }
+}

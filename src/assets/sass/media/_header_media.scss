@@ -3,6 +3,7 @@
         &__top {
             display: none;
         }
+
         .bottom {
             display: none;
         }
@@ -16,6 +17,7 @@
                 min-width: 100px;
             }
         }
+
         .phone {
             &__link {
                 font-size: 14px;
@@ -30,6 +32,7 @@
             &__link {
                 font-size: 18px;
             }
+
             &__workhours {
                 font-size: 10px;
                 font-weight: 500;
@@ -43,18 +46,45 @@
         &__top {
             display: block;
         }
+
         .bottom {
             display: block;
         }
     }
 }
+
 @media (min-width: 1170px) {
     .header {
         .logo {
             img {
-            min-width: 150px;
+                min-width: 200px;
+            }
+        }
+
+        .phone {
+            &__link {
+                font-size: 30px;
+                color: $green;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            &__workhours {
+                font-size: 12px;
+            }
+        }
+
+        .top {
+            &__link {
+                font-size: 14px;
+            }
+        }
+
+        .bottom {
+            &__link {
+                font-size: 16px;
+                font-weight: 600;
             }
         }
     }
 }
-
