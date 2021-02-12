@@ -1,7 +1,74 @@
 .categories {
-    &__item {
-        &-big {
-            width: 100%;
+    padding: 15px 0;
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mini {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__card {
+            min-width: 135px;
+
+            h4 {
+                top: -40px;
+                left: 15px;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 500;
+            }
+
+            &-storage {
+                min-height: 61px;
+
+                &::before {
+                    content: url('../img/categories/storage-mobile.jpg');
+                }
+            }
+
+            &-tables {
+                width: 200px;
+
+                &::before {
+                    content: url('../img/categories/tables-mobile.jpg');
+                    background-size: cover;
+                    width: 200px;
+                    background-position: center;
+                }
+            }
+
+            &-beds {
+                &::before {
+                    content: url('../img/categories/beds-mobile.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    .big {
+        &__card {
+            h4 {
+                top: -40px;
+                left: 15px;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 500;
+            }
+
+            &-seat {
+                min-height: 285px;
+
+                &::before {
+                    content: url('../img/categories/seat-mobile.jpg');
+                }
+            }
         }
     }
 }

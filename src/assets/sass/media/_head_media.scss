@@ -1,5 +1,41 @@
 @media (min-width: 375px) {
     .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-mobile.png');
+                position: absolute;
+                top: 20%;
+                right: -1%;
+            }
+        }
+
+        .title {
+            margin-top: 52px;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .slick-dots {
+            top: 33%;
+            left: 10px;
+
+            button {
+                font-size: 0;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                background: $brown;
+                border-color: $green;
+
+                &:active {
+                    background-color: $green;
+                }
+            }
+        }
+
         .top-slider__item {
             background-image: url('../img/head/head_bg-large.jpg');
             background-repeat: no-repeat;
@@ -12,28 +48,29 @@
 
 @media (min-width: 425px) {
     .head {
-        .container {
-            &:before {
-                content: url('../img/head/tree-tablet.png');
-                position: absolute;
-                top: 20%;
-                right: -1%;
-                z-index: 1;
-            }
-        }
-
         .top-slider__item {
             background-image: url('../img/head/head_bg-tablet.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
-            min-height: 440px;
+            min-height: 240px;
         }
     }
 }
 
 @media (min-width: 768px) {
     .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-tablet.png');
+                position: absolute;
+                top: 0%;
+                right: -22%;
+                z-index: 1;
+                min-height: 533px;
+            }
+        }
+
         .top-slider__item {
             background-image: url('../img/head/head_bg-tablet.jpg');
             background-repeat: no-repeat;
@@ -46,17 +83,6 @@
 
 @media (min-width: 1100px) {
     .head {
-        .container {
-            &:before {
-                content: url('../img/head/tree-tablet.png');
-                position: absolute;
-                top: 23%;
-                right: -13%;
-                z-index: 1;
-                min-height: 533px;
-            }
-        }
-
         .top-slider__item {
             background-image: url('../img/head/head_bg-desktop.jpg');
             background-repeat: no-repeat;
