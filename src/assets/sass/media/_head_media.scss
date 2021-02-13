@@ -3,7 +3,6 @@
         .container {
             &:before {
                 content: url('../img/head/tree-mobile.png');
-                position: absolute;
                 top: 20%;
                 right: -1%;
             }
@@ -19,28 +18,12 @@
         }
 
         .slick-dots {
-            top: 33%;
+            top: 35%;
             left: 10px;
-
-            button {
-                font-size: 0;
-                border-radius: 50px;
-                width: 10px;
-                height: 10px;
-                background: $brown;
-                border-color: $green;
-
-                &:active {
-                    background-color: $green;
-                }
-            }
         }
 
         .top-slider__item {
             background-image: url('../img/head/head_bg-large.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
             min-height: 250px;
         }
     }
@@ -48,12 +31,36 @@
 
 @media (min-width: 425px) {
     .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-tablet.png');
+                bottom: 0;
+                right: 0;
+            }
+        }
+
         .top-slider__item {
             background-image: url('../img/head/head_bg-tablet.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            min-height: 240px;
+            min-height: 438px;
+        }
+
+        .title {
+            font-size: 28px;
+            margin-top: 20%;
+        }
+
+        .subtitle {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .slick-dots {
+            top: 43%;
+
+            button {
+                width: 10px;
+                height: 10px;
+            }
         }
     }
 }
@@ -64,18 +71,14 @@
             &:before {
                 content: url('../img/head/tree-tablet.png');
                 position: absolute;
-                top: 0%;
-                right: -22%;
-                z-index: 1;
+                bottom: 0;
+                right: 0;
                 min-height: 533px;
             }
         }
 
         .top-slider__item {
             background-image: url('../img/head/head_bg-tablet.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
             min-height: 440px;
         }
     }
@@ -83,11 +86,29 @@
 
 @media (min-width: 1100px) {
     .head {
+        .container {
+            &:before {
+                content: url('../img/head/tree-desktop.png');
+                position: absolute;
+                top: 23%;
+                right: -6%;
+                min-height: 533px;
+            }
+        }
+
+        .top-slider__description {
+            margin-left: 120px;
+        }
+
+        .title {
+            margin-top: 150px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+
         .top-slider__item {
             background-image: url('../img/head/head_bg-desktop.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
             min-height: 578px;
         }
 
@@ -105,22 +126,10 @@
             }
         }
 
-        .title {
-            margin-top: 120px;
-            text-align: right;
-            font-size: 38px;
-            font-weight: 700;
-        }
-
         .subtitle {
-            text-align: right;
             font-size: 28px;
             margin-top: 15px;
             font-weight: 700;
-        }
-
-        .top-slider__description {
-            margin-right: 100px;
         }
     }
 }

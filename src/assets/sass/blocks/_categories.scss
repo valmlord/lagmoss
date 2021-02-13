@@ -15,12 +15,13 @@
         display: flex;
         flex-direction: column;
         margin-top: 15px;
+        border-radius: 10px;
     }
 
     .mini {
         display: grid;
         grid-template-columns: 135px 135px;
-        grid-template-rows: 110px;
+        grid-template-rows: 110px 150px;
         grid-column-gap: 15px;
         grid-row-gap: 15px;
 
