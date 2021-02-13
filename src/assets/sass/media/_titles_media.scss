@@ -1,0 +1,9 @@
+.title {
+    &-section {
+        font-size: 18px;
+
+        .underline {
+            border-bottom: 3px solid $green;
+        }
+    }
+}

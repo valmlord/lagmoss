@@ -1,0 +1,28 @@
+.popular {
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+
+    &__link {
+        flex-basis: 30%;
+        text-align: center;
+        border-radius: 5px;
+        color: $black;
+        padding: 8px;
+        border: 1px solid $green;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 15px;
+
+        &:first-child {
+            min-width: 100%;
+            background: $green;
+            padding: 10px 0;
+            color: $white;
+            margin-top: 0;
+        }
+    }
+}
