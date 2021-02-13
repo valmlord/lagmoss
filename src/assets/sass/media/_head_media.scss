@@ -110,14 +110,14 @@
         .container {
             &:before {
                 content: url('../img/head/tree-desktop.png');
-                top: 23%;
+                top: 10%;
                 right: -6%;
                 min-height: 533px;
             }
         }
 
         .top-slider__description {
-            margin-left: 120px;
+            margin-right: 180px;
         }
 
         .title {
@@ -125,7 +125,6 @@
             font-size: 50px;
             font-weight: 700;
         }
-
 
         .top-slider__item {
             background-image: url('../img/head/head_bg-desktop.jpg');
