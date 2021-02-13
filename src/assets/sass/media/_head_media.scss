@@ -35,7 +35,7 @@
             &:before {
                 content: url('../img/head/tree-tablet.png');
                 bottom: 0;
-                right: 0;
+                right: 0%;
             }
         }
 
@@ -44,9 +44,13 @@
             min-height: 438px;
         }
 
+        .top-slider__description {
+            margin-left: 60px;
+        }
+
         .title {
             font-size: 28px;
-            margin-top: 20%;
+            margin-top: 100px;
         }
 
         .subtitle {
@@ -70,7 +74,6 @@
         .container {
             &:before {
                 content: url('../img/head/tree-tablet.png');
-                position: absolute;
                 bottom: 0;
                 right: 0;
                 min-height: 533px;
@@ -81,15 +84,32 @@
             background-image: url('../img/head/head_bg-tablet.jpg');
             min-height: 440px;
         }
+
+        .top-slider__description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 90px;
+        }
+
+        .title {
+            text-align: right;
+            font-size: 40px;
+        }
+
+        .subtitle {
+            text-align: right;
+            font-size: 22px;
+        }
     }
 }
 
-@media (min-width: 1100px) {
+
+@media (min-width: 1024px) {
     .head {
         .container {
             &:before {
                 content: url('../img/head/tree-desktop.png');
-                position: absolute;
                 top: 23%;
                 right: -6%;
                 min-height: 533px;
