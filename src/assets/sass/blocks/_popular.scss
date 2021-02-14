@@ -25,4 +25,34 @@
             margin-top: 0;
         }
     }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .big {
+        &__card {
+            width: 100%;
+            margin-top: 15px;
+
+        }
+    }
+
+    .small {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__card {
+            width: 50%;
+        }
+    }
+
+
+
+    .big__card::last-child {
+        background: url("../img/popular/bigcard-2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
 }
