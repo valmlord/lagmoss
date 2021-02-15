@@ -61,7 +61,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -74,18 +74,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail:before {
+  content: "\e905";
+  color: #e0d5b7;
+}
+
 .icon-cart:before {
   content: "\e900";
 }
+
 .icon-facebook:before {
   content: "\e901";
+  color: #fff;
 }
+
 .icon-telegram:before {
   content: "\e902";
+  color: #fff;
 }
+
 .icon-instagram:before {
   content: "\e903";
+  color: #fff;
 }
+
 .icon-whatsapp:before {
   content: "\e904";
+  color: #fff;
 }
