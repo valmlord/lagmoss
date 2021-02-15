@@ -1,0 +1,42 @@
+.article {
+    padding: 15px 0;
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        margin-top: 15px;
+        display: flex;
+
+        &-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .article__description {
+                margin-left: 0;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    &__description {
+        margin-left: 15px;
+        color: $black;
+    }
+
+    &__image {
+        min-width: 135px;
+        min-height: 98px;
+    }
+
+    &__title {
+        font-size: 12px;
+    }
+
+    &__info {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+}

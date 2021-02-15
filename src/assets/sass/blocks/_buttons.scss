@@ -1,6 +1,16 @@
 .btn {
   cursor: pointer;
 
+  &:hover {
+    transition: 0.3 all;
+    background: #01B263;
+  }
+
+  &:active {
+    transition: 0.3 all;
+    background: #014023;
+  }
+
   &-menu {
     width: 25px;
     height: 25px;
@@ -33,17 +43,5 @@
     background: $green;
     color: $white;
     margin-top: 15px;
-
-    &:hover {
-      transition: 0.3 all;
-      background: #01B263;
-    }
-
-    &:active {
-      transition: 0.3 all;
-      background: #014023;
-    }
-
-    z-index: 99999;
   }
 }
