@@ -133,12 +133,12 @@
   <section class="categories">
     <div class="container">
       <h3 class="title title-section"><span class="underline">КАТЕГОРИИ</span></h3>
-      <div class="categories-inner">
-        <a href="javascript:void(0);" class="categories categories-storage">Хранение</a>
-        <a href="javascript:void(0);" class="categories categories-beds">Кровати</a>
-        <a href="javascript:void(0);" class="categories categories-tables">Столы</a>
-        <a href="javascript:void(0);" class="categories categories-accessories">Аксессуары</a>
-        <a href="javascript:void(0);" class="categories categories-seats">Сиденья</a>
+      <div class="categories__grid">
+        <a href="javascript:void(0);" class="categories__link categories__link-storage">Хранение</a>
+        <a href="javascript:void(0);" class="categories__link categories__link-beds">Кровати</a>
+        <a href="javascript:void(0);" class="categories__link categories__link-tables">Столы</a>
+        <a href="javascript:void(0);" class="categories__link categories__link-accessories">Аксессуары</a>
+        <a href="javascript:void(0);" class="categories__link categories__link-seats">Сиденья</a>
       </div>
     </div>
   </section>
@@ -246,16 +246,32 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer__inner">
-        <div class="footer__links">
-          <a href="#" class="footer__link">Акции</a>
-          <a href="#" class="footer__link">Вакансии</a>
-          <a href="#" class="footer__link">Статьи</a>
-          <a href="#" class="footer__link">Покупателям</a>
-          <a href="#" class="footer__link">Отзывы</a>
-          <a href="#" class="footer__link">Материалы</a>
-          <a href="#" class="footer__link">Вопрос - Ответ</a>
-        </div>
+      <div class="footer footer-inner">
+        <nav>
+          <ul class="footer__menu">
+            <li class="footer__link">
+              <a href="#">Акции</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Вакансии</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Статьи</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Покупателям</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Отзывы</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Материалы</a>
+            </li>
+            <li class="footer__link">
+              <a href="#">Вопрос - Ответ</a>
+            </li>
+          </ul>
+        </nav>
         <div class="footer__contacts">
           <div class="footer__social">
             <a class="footer__icon" href="javascript:void(0)"><span class="icon-whatsapp"></span></a>
@@ -272,10 +288,13 @@
             <span class="icon-mail"></span>
             <a href="mailto:info@lagmoss.ru">info@lagmoss.ru</a>
           </div>
-          <div class="footer__subscribe">
-            <span>Подписывайтесь на наши акции:</span>
-
-            <span>Нажимая на кнопку, Вы даете согласие на обработку персональных данных</span>
+          <div class="footer__subscribe subscribe">
+            <span class="subscribe__info">Подписывайтесь на наши акции:</span>
+            <div class="subscribe__form">
+              <input type="email" placeholder="введите email" required="">
+              <button class="btn btn-subscribe">Подписаться</button>
+            </div>
+            <span class="subscribe__info">Нажимая на кнопку, Вы даете согласие на обработку персональных данных</span>
           </div>
         </div>
       </div>

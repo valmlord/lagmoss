@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .popular {
+        &__links {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__link {}
+    }
+}

@@ -1,0 +1,68 @@
+@media (min-width: 425px) {
+    .categories {
+        &__grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+            grid-template-rows: 0.6fr 0.1fr 0.6fr;
+            gap: 15px 15px;
+            grid-template-areas:
+                "storage tables seats seats"
+                "beds tables seats seats"
+                "beds accessories seats seats";
+        }
+
+        &__link {
+            min-height: 110px;
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    .categories {
+        padding: 30px 0;
+
+        &__grid {
+            gap: 30px 30px;
+            margin-top: 30px;
+        }
+
+        &__link {
+            min-height: 200px;
+            font-size: 24px;
+
+            &-storage {
+                background: url('../img/categories/storage-desktop.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-beds {
+                grid-area: beds;
+                background: url('../img/categories/beds-desktop.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-tables {
+                grid-area: tables;
+                background: url('../img/categories/tables-desktop.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-accessories {
+                grid-area: accessories;
+                background: url('../img/categories/accessories-desktop.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-seats {
+                grid-area: seats;
+                background: url('../img/categories/seat-desktop.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}

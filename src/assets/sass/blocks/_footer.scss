@@ -1,21 +1,35 @@
 .footer {
-    padding: 30px 0;
+    padding: 15px 0;
     background: $black;
 
-    &__inner {
+    &-inner {
         display: flex;
         justify-content: space-between;
     }
 
-    &__links {
+    &__menu {
         display: flex;
         flex-direction: column;
+    }
+
+    &__link {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 27px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        a {
+            color: $white;
+        }
     }
 
     &__contacts {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
     }
 
     &__social {
@@ -27,15 +41,19 @@
         background: $green;
         border-radius: 5px;
         color: $white;
-        font-size: 18px;
-        margin-right: 5px;
+        height: 36px;
+        width: 36px;
+        font-size: 24px;
+        margin-left: 10px;
+        line-height: 1.7;
+        text-align: center;
     }
 
     &__phone {
         display: flex;
         flex-direction: column;
         text-align: right;
-        margin-top: 5px;
+        margin-top: 30px;
 
         span {
             font-size: 10px;
@@ -45,18 +63,49 @@
         a {
             color: $green;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 18px;
+            margin: 5px 0;
         }
     }
 
-    &__link {
-        color: $white;
-        font-size: 12px;
-        text-transform: uppercase;
-        margin-top: 15px;
+    &__mail {
+        margin-top: 5px;
+        font-size: 18px;
 
-        &:first-child {
-            margin-top: 0;
+        a {
+            color: $green;
+            font-weight: bold;
+        }
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 30px;
+
+        &__info {
+            color: $white;
+            font-size: 10px;
+            text-align: right;
+            max-width: 200px;
+        }
+
+        &__form {
+            display: flex;
+            justify-content: flex-end;
+            margin: 5px 0;
+
+            input {
+                width: 95px;
+                height: 36px;
+                background: $brown;
+                color: $black;
+                border: none;
+                border-radius: 5px;
+                left: 10px;
+                padding-left: 5px;
+            }
         }
     }
 }

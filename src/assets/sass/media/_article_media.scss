@@ -1,0 +1,11 @@
+@media (min-width: 375px) {
+    .article {
+        &__title {
+            font-size: 14px;
+        }
+
+        &__info {
+            font-size: 12px;
+        }
+    }
+}
