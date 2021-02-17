@@ -1,4 +1,6 @@
 .head {
+    padding-bottom: 15px;
+
     .container {
         &:before {
             content: url('../img/head/tree-mobile.png');
@@ -40,7 +42,7 @@
     }
 
     .top-slider__item {
-        background-image: url('../img/head/head_bg-mobile.jpg');
+        background-image: url('../img/head/head_bg-mobile.webp');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
