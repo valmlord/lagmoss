@@ -1,3 +1,76 @@
+@media (min-width: 375px) {
+    .popular {
+        .big {
+            &__description {
+                min-height: 200px;
+            }
+
+            &__name {
+                font-size: 16px;
+            }
+
+            &__type {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+
+            &__price {
+                font-size: 16px;
+                margin-top: 5px;
+            }
+
+        }
+
+        .small {
+            &__name {
+                font-size: 16px;
+            }
+
+            &__type {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+
+            &__price {
+                font-size: 16px;
+                margin-top: 15px;
+            }
+
+            &__link {
+                width: 120px;
+                height: 40px;
+                font-size: 12px;
+                margin-top: 15px;
+                line-height: 3.5;
+            }
+        }
+    }
+}
+
+@media (min-width: 425px) {
+    .popular {
+        .big {
+            &__description {
+                min-height: 240px;
+            }
+        }
+
+        .small {
+            &__name {
+                font-size: 18px;
+            }
+
+            &__type {
+                font-size: 16px;
+            }
+
+            &__price {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .popular {
         &__links {
@@ -6,7 +79,7 @@
             flex-wrap: nowrap;
             align-items: center;
             justify-content: space-between;
-            margin-top: 30px;
+            margin-top: 15px;
         }
 
         &__link {
@@ -48,6 +121,10 @@
 
             &__card {
                 width: 23%;
+            }
+
+            &__type {
+                min-height: 40px;
             }
         }
     }
