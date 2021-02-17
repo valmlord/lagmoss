@@ -64,6 +64,7 @@
         }
 
         &__link {
+            min-height: 150px;
             font-size: 22px;
         }
     }
@@ -80,6 +81,7 @@
 
         &__link {
             font-size: 22px;
+            min-height: 180px;
 
             &-storage {
                 background: url('../img/categories/storage-desktop.jpg');
