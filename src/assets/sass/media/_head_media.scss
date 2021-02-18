@@ -34,7 +34,7 @@
         .container {
             &:before {
                 content: url('../img/head/tree-tablet.png');
-                bottom: 0;
+                top: 20%;
                 right: 0%;
             }
         }
@@ -45,17 +45,17 @@
         }
 
         .top-slider__description {
-            margin-left: 60px;
+            margin-left: 30px;
         }
 
         .title {
-            font-size: 28px;
-            margin-top: 100px;
+            font-size: 24px;
+            margin-top: 120px;
         }
 
         .subtitle {
             margin-top: 15px;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .slick-dots {

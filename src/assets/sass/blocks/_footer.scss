@@ -7,15 +7,20 @@
         justify-content: space-between;
     }
 
+    &__categories {
+        display: none;
+    }
+
+
     &__menu {
         display: flex;
         flex-direction: column;
     }
 
     &__link {
-        font-size: 12px;
+        font-size: 10px;
         text-transform: uppercase;
-        margin-top: 27px;
+        margin-top: 15px;
 
         &:first-child {
             margin-top: 0;

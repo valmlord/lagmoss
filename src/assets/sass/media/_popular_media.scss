@@ -51,7 +51,19 @@
     .popular {
         .big {
             &__description {
-                min-height: 240px;
+                min-height: 400px;
+            }
+
+            &__name {
+                font-size: 22px;
+            }
+
+            &__type {
+                font-size: 18px;
+            }
+
+            &__price {
+                font-size: 22px;
             }
         }
 
@@ -61,7 +73,7 @@
             }
 
             &__type {
-                font-size: 16px;
+                font-size: 14px;
             }
 
             &__price {
@@ -73,13 +85,15 @@
 
 @media (min-width: 768px) {
     .popular {
+        padding: 30px 0;
+
         &__links {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             align-items: center;
             justify-content: space-between;
-            margin-top: 15px;
+            margin-top: 30px;
         }
 
         &__link {
@@ -108,6 +122,11 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            margin-top: 15px;
+
+            &__description {
+                min-height: 240px;
+            }
 
             &__card {
                 width: 48.5%;
@@ -121,10 +140,7 @@
 
             &__card {
                 width: 23%;
-            }
-
-            &__type {
-                min-height: 40px;
+                margin-top: 30px;
             }
         }
     }
