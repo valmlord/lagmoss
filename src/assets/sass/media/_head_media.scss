@@ -1,15 +1,6 @@
 @media (min-width: 375px) {
     .head {
-        .container {
-            &:before {
-                content: url('../img/head/tree-mobile.png');
-                top: 15%;
-                right: 3%;
-            }
-        }
-
         .title {
-            margin-top: 52px;
             font-size: 24px;
         }
 
@@ -30,44 +21,35 @@
 }
 
 @media (min-width: 425px) {
-    .head {
-        .container {
-            &:before {
-                content: url('../img/head/tree-tablet.png');
-                top: 20%;
-                right: 0%;
-            }
-        }
+    .top-slider__item {
+        background-image: url('../img/head/head_bg-tablet.webp');
+        min-height: 438px;
+    }
 
-        .top-slider__item {
-            background-image: url('../img/head/head_bg-tablet.webp');
-            min-height: 438px;
-        }
+    .top-slider__description {
+        margin-left: 30px;
+    }
 
-        .top-slider__description {
-            margin-left: 30px;
-        }
+    .title {
+        font-size: 24px;
+        margin-top: 120px;
+    }
 
-        .title {
-            font-size: 24px;
-            margin-top: 120px;
-        }
+    .subtitle {
+        margin-top: 15px;
+        font-size: 18px;
+    }
 
-        .subtitle {
-            margin-top: 15px;
-            font-size: 18px;
-        }
+    .slick-dots {
+        top: 43%;
 
-        .slick-dots {
-            top: 43%;
-
-            button {
-                width: 10px;
-                height: 10px;
-            }
+        button {
+            width: 10px;
+            height: 10px;
         }
     }
 }
+
 
 @media (min-width: 768px) {
     .head {
@@ -110,9 +92,9 @@
         .container {
             &:before {
                 content: url('../img/head/tree-desktop.png');
-                top: 10%;
-                right: -6%;
-                min-height: 533px;
+                top: 30%;
+                right: -12%;
+
             }
         }
 
@@ -123,7 +105,7 @@
         .title {
             margin-top: 150px;
             font-size: 50px;
-            font-weight: 700;
+            font-weight: 500;
         }
 
         .top-slider__item {
@@ -148,7 +130,7 @@
         .subtitle {
             font-size: 28px;
             margin-top: 15px;
-            font-weight: 700;
+            font-weight: 300;
         }
     }
 }

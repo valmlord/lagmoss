@@ -48,6 +48,8 @@
   padding: 0 15px;
   background-color: $black;
   transition: 0.6s all;
+  z-index: 2;
+  opacity: 0.9;
 
   &_active {
     left: 0;
@@ -55,10 +57,14 @@
 
   &__item {
     padding: 10px 0;
+
+    &:first-child {
+      padding-top: 30px;
+    }
   }
 
   &__link {
-    font-size: 14px;
+    font-size: 12px;
     color: $white;
 
     &:hover {
@@ -69,6 +75,13 @@
   .social {
     &__icons {
       margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0;
+    }
+
+    &__icon {
+      margin-right: 0;
     }
   }
 }
