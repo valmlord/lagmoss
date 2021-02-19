@@ -11,7 +11,7 @@ $(".top-slider .slick-arrow").remove();
 
 window.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".mobile"),
-    topMenu = document.querySelector(".header__top"),
+    mobileMenuItem = document.querySelectorAll(".mobile__link"),
     socialIcon = document.querySelectorAll(".social__icon"),
     hamburger = document.querySelector(".hamburger");
 
@@ -20,10 +20,17 @@ window.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("mobile_active");
   });
 
-  topMenuItem.forEach((item) => {
+  mobileMenuItem.forEach((item) => {
     item.addEventListener("click", () => {
       hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("menu_active");
+      menu.classList.toggle("mobile_active");
+    });
+  });
+
+  socialIcon.forEach((item) => {
+    item.addEventListener("click", () => {
+      hamburger.classList.toggle("hamburger_active");
+      menu.classList.toggle("mobile_active");
     });
   });
 });

@@ -1,3 +1,13 @@
+@media (min-width: 320px) {
+    .head {
+        .container {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
 @media (min-width: 375px) {
     .head {
         .title {
@@ -55,10 +65,13 @@
     .head {
         .container {
             &:before {
-                content: url('../img/head/tree-tablet.png');
+                display: block;
+                content: url('../img/head/tree-desktop.png');
+                position: absolute;
                 bottom: 0;
                 right: 0;
                 min-height: 533px;
+                z-index: 2;
             }
         }
 

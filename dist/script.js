@@ -1617,17 +1617,23 @@ $(".top-slider").slick({
 $(".top-slider .slick-arrow").remove();
 window.addEventListener("DOMContentLoaded", function () {
   var menu = document.querySelector(".mobile"),
-      topMenu = document.querySelector(".header__top"),
+      mobileMenuItem = document.querySelectorAll(".mobile__link"),
       socialIcon = document.querySelectorAll(".social__icon"),
       hamburger = document.querySelector(".hamburger");
   hamburger.addEventListener("click", function () {
     hamburger.classList.toggle("hamburger_active");
     menu.classList.toggle("mobile_active");
   });
-  topMenuItem.forEach(function (item) {
+  mobileMenuItem.forEach(function (item) {
     item.addEventListener("click", function () {
       hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("menu_active");
+      menu.classList.toggle("mobile_active");
+    });
+  });
+  socialIcon.forEach(function (item) {
+    item.addEventListener("click", function () {
+      hamburger.classList.toggle("hamburger_active");
+      menu.classList.toggle("mobile_active");
     });
   });
 });
