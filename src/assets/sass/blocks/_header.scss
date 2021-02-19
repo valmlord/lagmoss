@@ -1,79 +1,28 @@
 .header {
   &__top {
-    position: fixed;
-    bottom: 0;
-    left: -100%;
-    width: 60%;
-    height: 70vh;
-    padding: 20px 15px;
-    background-color: $black;
-    transition: 0.6s all;
-    z-index: 10;
-
-    opacity: 0.9;
-
-    &-inner {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    &_active {
-      left: 0;
-      z-index: 3;
-      padding: 0;
-    }
-
-
+    display: none;
   }
 
   &__bottom {
-    background: $white;
-    padding: 15px 0;
-
     &-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 10px 0;
     }
   }
 
   .social {
-    width: 100%;
-    margin-top: 15px;
-
     &__icons {
       display: flex;
-      font-size: 36px;
-      justify-content: space-between;
+      align-items: center;
     }
 
     &__icon {
-      color: #fff;
-      transition: 0.5s all;
-
-      &:hover {
-        color: $green;
-      }
-    }
-  }
-
-  .top {
-    &__list {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: flex-start;
-    }
-
-    &__item {
-      padding: 10px 0;
-
-    }
-
-    &__link {
       color: $white;
-      text-transform: uppercase;
-      font-size: 16px;
       transition: 0.5s all;
+      margin-right: 15px;
+      font-size: 24px;
 
       &:hover {
         color: $green;
@@ -84,51 +33,56 @@
 
 .bottom {
   &__list {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    top: 0px;
-    left: -100%;
-    width: 60%;
-    height: 30vh;
-    padding: 20px 15px;
-    background-color: $black;
-    opacity: 0.9;
-    transition: 0.6s all;
-    z-index: 2;
-    text-align: left;
+    display: none;
+  }
+}
 
-    &_active {
-      left: 0;
-      z-index: 2;
-    }
+.mobile {
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  padding: 0 15px;
+  background-color: $black;
+  transition: 0.6s all;
+
+  &_active {
+    left: 0;
   }
 
   &__item {
-    margin-top: 10px;
+    padding: 10px 0;
   }
 
   &__link {
+    font-size: 14px;
     color: $white;
-    text-transform: uppercase;
-    font-size: 16px;
-    transition: 0.5s all;
 
     &:hover {
       color: $green;
     }
   }
+
+  .social {
+    &__icons {
+      margin-top: 15px;
+    }
+  }
 }
 
 .logo {
-  min-width: 86px;
+  img {
+    width: 76px;
+  }
 }
 
 .phone {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  margin-left: 10px;
 
   &__link {
     font-size: 12px;
