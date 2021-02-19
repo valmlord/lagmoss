@@ -4,7 +4,7 @@
     bottom: 0;
     left: -100%;
     width: 60%;
-    height: 50vh;
+    height: 50%;
     padding: 20px 15px;
     background-color: $black;
     transition: 0.6s all;
@@ -92,10 +92,12 @@
   &__list {
     position: fixed;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     top: 0px;
     left: -100%;
     width: 60%;
-    height: 50vh;
+    height: 50%;
     padding: 20px 15px;
     background-color: $black;
     transition: 0.6s all;
@@ -111,7 +113,7 @@
   &__link {
     color: $white;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.5s all;
 
     &:hover {
