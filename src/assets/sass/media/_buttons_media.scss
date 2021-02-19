@@ -1,38 +1,7 @@
-@media (min-width: 375px) {
-    .btn {
-        &-main {
-            width: 150px;
-            height: 40px;
-            font-size: 12px;
-        }
-    }
-}
-
-@media (min-width: 375px) {
-    .btn {
-        &-main {
-            width: 180px;
-            height: 50px;
-            font-size: 14px;
-        }
-    }
-}
-
 @media (min-width: 768px) {
     .btn {
         &-menu {
             display: none;
-        }
-    }
-}
-
-@media (min-width: 1100px) {
-    .btn {
-        &-main {
-            width: 200px;
-            height: 50px;
-            font-size: 14px;
-            margin-top: 30px;
         }
     }
 }

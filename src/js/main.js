@@ -1,13 +1,13 @@
-$(".top-slider").slick({
+$(".main-slider").slick({
   autoplay: true,
   dots: true,
   infinite: true,
-  speed: 300,
+  speed: 200,
   slidesToShow: 1,
   adaptiveHeight: true,
   arrow: false,
 });
-$(".top-slider .slick-arrow").remove();
+$(".main-slider .slick-arrow").remove();
 
 window.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".mobile"),

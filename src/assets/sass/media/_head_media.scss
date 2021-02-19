@@ -5,57 +5,71 @@
                 display: none;
             }
         }
+
+        .main-slider {
+            .slick-dots {
+                display: none;
+            }
+        }
     }
 }
 
 @media (min-width: 375px) {
     .head {
-        .title {
-            font-size: 24px;
-        }
+        .main-slider {
+            &__description {
+                margin-right: 30px;
+            }
 
-        .subtitle {
-            font-size: 16px;
-        }
+            &__title {
+                font-size: 24px;
+            }
 
-        .slick-dots {
-            top: 35%;
-            left: 10px;
-        }
+            &__subtitle {
+                font-size: 16px;
+            }
 
-        .top-slider__item {
-            background-image: url('../img/head/head_bg-large.webp');
-            min-height: 250px;
+            &__slick-dots {
+                top: 35%;
+                left: 10px;
+            }
+
+            &__item {
+                background-image: url('../img/head/slide-1/slide_bg-large.webp');
+                min-height: 250px;
+            }
         }
     }
 }
 
 @media (min-width: 425px) {
-    .top-slider__item {
-        background-image: url('../img/head/head_bg-tablet.webp');
-        min-height: 438px;
-    }
+    .main-slider {
+        &__item {
+            background-image: url('../img/head/slide-1/slide_bg-tablet.webp');
+            min-height: 438px;
+        }
 
-    .top-slider__description {
-        margin-left: 30px;
-    }
+        &__description {
+            margin-left: 30px;
+        }
 
-    .title {
-        font-size: 24px;
-        margin-top: 120px;
-    }
+        &__title {
+            font-size: 24px;
+            margin-top: 120px;
+        }
 
-    .subtitle {
-        margin-top: 15px;
-        font-size: 18px;
-    }
+        &__subtitle {
+            margin-top: 15px;
+            font-size: 18px;
+        }
 
-    .slick-dots {
-        top: 43%;
+        .slick-dots {
+            top: 43%;
 
-        button {
-            width: 10px;
-            height: 10px;
+            button {
+                width: 10px;
+                height: 10px;
+            }
         }
     }
 }
@@ -68,33 +82,35 @@
                 display: block;
                 content: url('../img/head/tree-desktop.png');
                 position: absolute;
-                bottom: 0;
+                top: 0;
                 right: 0;
                 min-height: 533px;
                 z-index: 2;
             }
         }
 
-        .top-slider__item {
-            background-image: url('../img/head/head_bg-tablet.webp');
-            min-height: 440px;
-        }
+        .main-slider {
+            &__item {
+                background-image: url('../img/head/slide-1/slide_bg-tablet.webp');
+                min-height: 440px;
+            }
 
-        .top-slider__description {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            margin-right: 90px;
-        }
+            &__description {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-right: 90px;
+            }
 
-        .title {
-            text-align: right;
-            font-size: 40px;
-        }
+            &__title {
+                text-align: right;
+                font-size: 40px;
+            }
 
-        .subtitle {
-            text-align: right;
-            font-size: 22px;
+            &__subtitle {
+                text-align: right;
+                font-size: 22px;
+            }
         }
     }
 }
@@ -106,44 +122,45 @@
             &:before {
                 content: url('../img/head/tree-desktop.png');
                 top: 30%;
-                right: -12%;
-
+                right: -14%;
             }
         }
 
-        .top-slider__description {
-            margin-right: 180px;
-        }
+        .main-slider {
+            &__item {
+                background-image: url('../img/head/slide-1/slide_bg-desktop.webp');
+                min-height: 578px;
+            }
 
-        .title {
-            margin-top: 150px;
-            font-size: 50px;
-            font-weight: 500;
-        }
+            &__description {
+                margin-right: 180px;
+            }
 
-        .top-slider__item {
-            background-image: url('../img/head/head_bg-desktop.webp');
-            min-height: 578px;
-        }
+            &__title {
+                margin-top: 150px;
+                font-size: 50px;
+                font-weight: 500;
+            }
 
-        .slick-dots {
-            top: 254px;
-            left: 30px;
+            &__subtitle {
+                font-size: 28px;
+                margin-top: 15px;
+                font-weight: 300;
+            }
 
-            button {
-                width: 13px;
-                height: 13px;
+            &__slick-dots {
+                top: 254px;
+                left: 30px;
 
-                &:active {
-                    background-color: $green;
+                button {
+                    width: 13px;
+                    height: 13px;
+
+                    &:active {
+                        background-color: $green;
+                    }
                 }
             }
-        }
-
-        .subtitle {
-            font-size: 28px;
-            margin-top: 15px;
-            font-weight: 300;
         }
     }
 }

@@ -1605,16 +1605,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1__);
 
 
-$(".top-slider").slick({
+$(".main-slider").slick({
   autoplay: true,
   dots: true,
   infinite: true,
-  speed: 300,
+  speed: 200,
   slidesToShow: 1,
   adaptiveHeight: true,
   arrow: false
 });
-$(".top-slider .slick-arrow").remove();
+$(".main-slider .slick-arrow").remove();
 window.addEventListener("DOMContentLoaded", function () {
   var menu = document.querySelector(".mobile"),
       mobileMenuItem = document.querySelectorAll(".mobile__link"),
