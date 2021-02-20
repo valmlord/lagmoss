@@ -1,9 +1,11 @@
 .title {
     .underline {
-        border-bottom: 3px solid $green;
+        border-bottom: 1px solid $green;
     }
 
     &-section {
         font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
     }
 }

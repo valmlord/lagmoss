@@ -1,8 +1,112 @@
 @media (min-width: 375px) {
     .categories {
         &__link {
-            min-height: 120px;
-            font-size: 14px;
+
+            &--chest {
+                grid-area: chest;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--consoles {
+                grid-area: consoles;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--chairs {
+                grid-area: chairs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--racks {
+                grid-area: racks;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--coffee {
+                grid-area: coffee;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--seats {
+                grid-area: seats;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--tvtable {
+                grid-area: tvtable;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shelfs {
+                grid-area: shelfs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--wardrobe {
+                grid-area: wardrobe;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--dinner {
+                grid-area: dinner;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--hangers {
+                grid-area: hangers;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--bar-chairs {
+                grid-area: bar-chairs;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shoe-cabinets {
+                grid-area: shoe-cabinets;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            &--table {
+                grid-area: table;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--desk {
+                grid-area: desk;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
         }
     }
 }
@@ -13,38 +117,113 @@
             min-height: 180px;
             font-size: 18px;
 
-            &-storage {
-                background: url('../img/categories/storage-tablet.webp');
-                background-size: cover;
-                background-position: center;
-            }
+            &__link {
 
-            &-beds {
-                grid-area: beds;
-                background: url('../img/categories/beds-tablet.webp');
-                background-size: cover;
-                background-position: center;
-            }
+                &--chest {
+                    grid-area: chest;
+                    background: url('../img/categories/chest/chest-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
 
-            &-tables {
-                grid-area: tables;
-                background: url('../img/categories/tables-tablet.webp');
-                background-size: cover;
-                background-position: center;
-            }
+                &--consoles {
+                    grid-area: consoles;
+                    background: url('../img/categories/consoles/consoles-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
 
-            &-accessories {
-                grid-area: accessories;
-                background: url('../img/categories/accessories-tablet.webp');
-                background-size: cover;
-                background-position: center;
-            }
+                &--chairs {
+                    grid-area: chairs;
+                    background: url('../img/categories/chairs/chairs-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
 
-            &-seats {
-                grid-area: seats;
-                background: url('../img/categories/seat-tablet.webp');
-                background-size: cover;
-                background-position: center;
+                &--racks {
+                    grid-area: racks;
+                    background: url('../img/categories/seat-mobile.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--coffee {
+                    grid-area: coffee;
+                    background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--seats {
+                    grid-area: seats;
+                    background: url('../img/categories/chest/chest-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--tvtable {
+                    grid-area: tvtable;
+                    background: url('../img/categories/consoles/consoles-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--shelfs {
+                    grid-area: shelfs;
+                    background: url('../img/categories/chairs/chairs-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--wardrobe {
+                    grid-area: wardrobe;
+                    background: url('../img/categories/seat-mobile.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--dinner {
+                    grid-area: dinner;
+                    background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--hangers {
+                    grid-area: hangers;
+                    background: url('../img/categories/chest/chest-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--bar-chairs {
+                    grid-area: bar-chairs;
+                    background: url('../img/categories/consoles/consoles-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--shoe-cabinets {
+                    grid-area: shoe-cabinets;
+                    background: url('../img/categories/chairs/chairs-small.jpg');
+                    background-size: cover;
+                    background-position: center;
+
+                }
+
+                &--table {
+                    grid-area: table;
+                    background: url('../img/categories/seat-mobile.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &--desk {
+                    grid-area: desk;
+                    background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                    background-size: cover;
+                    background-position: center;
+                }
             }
         }
     }
@@ -55,20 +234,152 @@
         padding: 30px 0;
 
         &__grid {
-            margin-top: 30px;
-            display: grid;
-            grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
-            grid-template-rows: 0.6fr 0.1fr 0.6fr;
-            gap: 15px 15px;
-            grid-template-areas:
-                "storage tables seats seats"
-                "beds tables seats seats"
-                "beds accessories seats seats";
+            &--first {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+                grid-template-rows: 0.6fr 0.1fr 0.6fr;
+                gap: 30px 30px;
+                grid-template-areas:
+                    "chest chairs coffee coffee"
+                    "chest racks coffee coffee"
+                    "consoles racks coffee coffee";
+            }
+
+            &--second {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+                grid-template-rows: 0.6fr 0.1fr 0.6fr;
+                gap: 30px 30px;
+                grid-template-areas:
+                    "dinner dinner seats shelfs"
+                    "dinner dinner seats wardrobe"
+                    "dinner dinner tvtable wardrobe";
+            }
+
+            &--third {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+                grid-template-rows: 0.6fr 0.1fr 0.6fr;
+                gap: 30px 30px;
+                grid-template-areas:
+                    "hangers bar-chairs desk desk"
+                    "hangers table desk desk"
+                    "shoe-cabinets table desk desk";
+            }
         }
 
         &__link {
             min-height: 150px;
             font-size: 22px;
+
+            &--chest {
+                grid-area: chest;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--consoles {
+                grid-area: consoles;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--chairs {
+                grid-area: chairs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--racks {
+                grid-area: racks;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--coffee {
+                grid-area: coffee;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--seats {
+                grid-area: seats;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--tvtable {
+                grid-area: tvtable;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shelfs {
+                grid-area: shelfs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--wardrobe {
+                grid-area: wardrobe;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--dinner {
+                grid-area: dinner;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--hangers {
+                grid-area: hangers;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--bar-chairs {
+                grid-area: bar-chairs;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shoe-cabinets {
+                grid-area: shoe-cabinets;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            &--table {
+                grid-area: table;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--desk {
+                grid-area: desk;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
         }
     }
 }
@@ -86,36 +397,108 @@
             font-size: 22px;
             min-height: 180px;
 
-            &-storage {
-                background: url('../img/categories/storage-desktop.webp');
+            &--chest {
+                grid-area: chest;
+                background: url('../img/categories/chest/chest-small.webp');
                 background-size: cover;
                 background-position: center;
             }
 
-            &-beds {
-                grid-area: beds;
-                background: url('../img/categories/beds-desktop.webp');
+            &--consoles {
+                grid-area: consoles;
+                background: url('../img/categories/consoles/consoles-small.jpg');
                 background-size: cover;
                 background-position: center;
             }
 
-            &-tables {
-                grid-area: tables;
-                background: url('../img/categories/tables-desktop.webp');
+            &--chairs {
+                grid-area: chairs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
                 background-size: cover;
                 background-position: center;
             }
 
-            &-accessories {
-                grid-area: accessories;
-                background: url('../img/categories/accessories-desktop.webp');
+            &--racks {
+                grid-area: racks;
+                background: url('../img/categories/seat-mobile.webp');
                 background-size: cover;
                 background-position: center;
             }
 
-            &-seats {
+            &--coffee {
+                grid-area: coffee;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--seats {
                 grid-area: seats;
-                background: url('../img/categories/seat-desktop.webp');
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--tvtable {
+                grid-area: tvtable;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shelfs {
+                grid-area: shelfs;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--wardrobe {
+                grid-area: wardrobe;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--dinner {
+                grid-area: dinner;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--hangers {
+                grid-area: hangers;
+                background: url('../img/categories/chest/chest-small.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--bar-chairs {
+                grid-area: bar-chairs;
+                background: url('../img/categories/consoles/consoles-small.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--shoe-cabinets {
+                grid-area: shoe-cabinets;
+                background: url('../img/categories/chairs/chairs-small.jpg');
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            &--table {
+                grid-area: table;
+                background: url('../img/categories/seat-mobile.webp');
+                background-size: cover;
+                background-position: center;
+            }
+
+            &--desk {
+                grid-area: desk;
+                background: url('../img/categories/coffee-tables/coffee-table-small.webp');
                 background-size: cover;
                 background-position: center;
             }
