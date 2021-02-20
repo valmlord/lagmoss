@@ -1,6 +1,7 @@
 @media (min-width: 375px) {
     .categories {
         &__link {
+            min-height: 140px;
 
             &--chest {
                 grid-area: chest;
@@ -44,8 +45,8 @@
                 background-position: center;
             }
 
-            &--tvtable {
-                grid-area: tvtable;
+            &--tv-table {
+                grid-area: tv-table;
                 background: url('../img/categories/consoles/consoles-small.jpg');
                 background-size: cover;
                 background-position: center;
@@ -161,8 +162,8 @@
                     background-position: center;
                 }
 
-                &--tvtable {
-                    grid-area: tvtable;
+                &--tv-table {
+                    grid-area: tv-table;
                     background: url('../img/categories/consoles/consoles-small.jpg');
                     background-size: cover;
                     background-position: center;
@@ -231,7 +232,6 @@
 
 @media (min-width: 768px) {
     .categories {
-        padding: 30px 0;
 
         &__grid {
             &--first {
@@ -239,7 +239,7 @@
                 display: grid;
                 grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
                 grid-template-rows: 0.6fr 0.1fr 0.6fr;
-                gap: 30px 30px;
+                gap: 15px 15px;
                 grid-template-areas:
                     "chest chairs coffee coffee"
                     "chest racks coffee coffee"
@@ -247,23 +247,23 @@
             }
 
             &--second {
-                margin-top: 30px;
+                margin-top: 15px;
                 display: grid;
                 grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
                 grid-template-rows: 0.6fr 0.1fr 0.6fr;
-                gap: 30px 30px;
+                gap: 15px 15px;
                 grid-template-areas:
                     "dinner dinner seats shelfs"
                     "dinner dinner seats wardrobe"
-                    "dinner dinner tvtable wardrobe";
+                    "dinner dinner tv-table wardrobe";
             }
 
             &--third {
-                margin-top: 30px;
+                margin-top: 15px;
                 display: grid;
                 grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
                 grid-template-rows: 0.6fr 0.1fr 0.6fr;
-                gap: 30px 30px;
+                gap: 15px 15px;
                 grid-template-areas:
                     "hangers bar-chairs desk desk"
                     "hangers table desk desk"
@@ -272,8 +272,8 @@
         }
 
         &__link {
-            min-height: 150px;
-            font-size: 22px;
+            min-height: 200px;
+            font-size: 16px;
 
             &--chest {
                 grid-area: chest;
@@ -317,8 +317,8 @@
                 background-position: center;
             }
 
-            &--tvtable {
-                grid-area: tvtable;
+            &--tv-table {
+                grid-area: tv-table;
                 background: url('../img/categories/consoles/consoles-small.jpg');
                 background-size: cover;
                 background-position: center;
@@ -439,8 +439,8 @@
                 background-position: center;
             }
 
-            &--tvtable {
-                grid-area: tvtable;
+            &--tv-table {
+                grid-area: tv-table;
                 background: url('../img/categories/consoles/consoles-small.jpg');
                 background-size: cover;
                 background-position: center;
