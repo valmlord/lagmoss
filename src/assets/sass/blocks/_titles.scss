@@ -3,9 +3,18 @@
         border-bottom: 1px solid $green;
     }
 
+    &--cursive {
+        color: $brown;
+        background-color: $green;
+        padding: 5px 10px;
+        border-radius: 10px;
+        opacity: 0.8;
+    }
+
     &-section {
         font-size: 18px;
         font-weight: 300;
         text-transform: uppercase;
+        line-height: 2;
     }
 }
