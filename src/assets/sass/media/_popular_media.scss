@@ -51,7 +51,7 @@
     .popular {
         .big {
             &__description {
-                min-height: 400px;
+                min-height: 250px;
             }
 
             &__name {
@@ -83,9 +83,18 @@
     }
 }
 
+@media (min-width: 600px) {
+    .popular {
+        .big {
+            &__description {
+                min-height: 300px;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .popular {
-        padding: 30px 0;
 
         &__links {
             display: flex;
@@ -125,7 +134,7 @@
             margin-top: 15px;
 
             &__description {
-                min-height: 240px;
+                min-height: 280px;
             }
 
             &__card {
