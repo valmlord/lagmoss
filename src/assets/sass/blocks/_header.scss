@@ -66,16 +66,16 @@
     &__link {
       font-size: 12px;
       color: $white;
+      transition: 0.5s all;
 
       &:hover {
         color: $green;
       }
     }
-
   }
 
   .logo {
-    img {
+    &-img {
       width: 76px;
     }
   }
@@ -102,6 +102,7 @@
     .icon-cart {
       color: $black;
       font-size: 20px;
+      transition: 0.5s all;
 
       &:hover {
         color: $green;

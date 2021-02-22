@@ -15,12 +15,27 @@
         text-transform: uppercase;
         font-size: 12px;
         margin-top: 15px;
+        cursor: pointer;
+        outline: none;
+        transition: 0.5 all;
 
         &:first-child {
             min-width: 100%;
             background: $green;
             padding: 10px 0;
             color: $white;
+
+            &:hover {
+                color: $black;
+            }
+        }
+
+        &:hover {
+            background: #01B263;
+        }
+
+        &:active {
+            background: #014023;
         }
     }
 
@@ -122,6 +137,18 @@
             text-align: center;
             margin-top: 15px;
             line-height: 3.2;
+            cursor: pointer;
+            outline: none;
+
+            &:hover {
+                transition: 0.3 all;
+                background: #01B263;
+            }
+
+            &:active {
+                transition: 0.3 all;
+                background: #014023;
+            }
         }
     }
 }
