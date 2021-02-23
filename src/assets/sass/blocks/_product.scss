@@ -1,0 +1,29 @@
+.product {
+    &-card {
+        &__slider {
+            margin: 15px 0;
+
+            &-img {}
+        }
+
+        &__nav {
+            &-thumbnails {
+
+                &-item {}
+
+                &-img {
+                    width: 90px;
+                }
+            }
+        }
+    }
+}
+
+.slider-nav-thumbnails .slick-slide {
+    opacity: 0.5;
+}
+
+.slider-nav-thumbnails .slick-slide.slick-active {
+    opacity: 1;
+    background: $brown;
+}

@@ -89,66 +89,68 @@
         }
     }
 
-    .small {
+
+}
+
+.small {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__card {
+        padding: 15px 0;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
+        width: 47.5%;
+    }
 
-        &__card {
-            margin-top: 15px;
-            display: flex;
-            flex-direction: column;
-            width: 47.5%;
+    &__img {
+        border-radius: 10px;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        color: $green;
+        margin-top: 15px;
+    }
+
+    &__type {
+        font-size: 12px;
+        color: $black;
+        margin-top: 10px;
+    }
+
+    &__price {
+        color: $black;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    &__link {
+        background: $green;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+        margin-top: 15px;
+        line-height: 3.2;
+        cursor: pointer;
+        outline: none;
+
+        &:hover {
+            transition: 0.3 all;
+            background: #01B263;
         }
 
-        &__img {
-            border-radius: 10px;
-        }
-
-        &__name {
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: bold;
-            color: $green;
-            margin-top: 15px;
-        }
-
-        &__type {
-            font-size: 12px;
-            color: $black;
-            margin-top: 10px;
-        }
-
-        &__price {
-            color: $black;
-            font-weight: bold;
-            font-size: 14px;
-            margin-top: 10px;
-        }
-
-        &__link {
-            background: $green;
-            border-radius: 5px;
-            width: 80px;
-            height: 30px;
-            font-size: 10px;
-            text-transform: uppercase;
-            color: $white;
-            text-align: center;
-            margin-top: 15px;
-            line-height: 3.2;
-            cursor: pointer;
-            outline: none;
-
-            &:hover {
-                transition: 0.3 all;
-                background: #01B263;
-            }
-
-            &:active {
-                transition: 0.3 all;
-                background: #014023;
-            }
+        &:active {
+            transition: 0.3 all;
+            background: #014023;
         }
     }
 }

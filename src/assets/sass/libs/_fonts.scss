@@ -74,27 +74,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail:before {
-  content: "\e905";
-  color: #e0d5b7;
-}
-
-.icon-cart:before {
+.icon-dashicon:before {
   content: "\e900";
+  color: #006939;
 }
 
-.icon-facebook:before {
+.icon-next:before {
   content: "\e901";
 }
 
-.icon-telegram:before {
+.icon-prev:before {
   content: "\e902";
 }
 
-.icon-instagram:before {
+.icon-cart:before {
   content: "\e903";
 }
 
-.icon-whatsapp:before {
+.icon-facebook:before {
   content: "\e904";
+}
+
+.icon-telegram:before {
+  content: "\e905";
+}
+
+.icon-instagram:before {
+  content: "\e906";
+}
+
+.icon-whatsapp:before {
+  content: "\e907";
+}
+
+.icon-mail:before {
+  content: "\e908";
 }

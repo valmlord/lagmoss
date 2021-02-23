@@ -1,0 +1,33 @@
+.breadcrumbs {
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
+    &__list {
+        display: flex;
+        font-size: 8px;
+        align-items: center;
+
+        &-item {
+            a {
+                color: $black;
+            }
+        }
+    }
+
+    &-nav {
+        display: flex;
+        font-size: 8px;
+
+        &__prev {
+            color: $black;
+            margin-right: 5px;
+        }
+
+        &__next {
+            color: $black;
+        }
+    }
+}

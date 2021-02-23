@@ -14,6 +14,19 @@
             background-size: cover;
             min-height: 209px;
             z-index: 1;
+
+            &:nth-child(2) {
+                background-image: url('../img/head/slide-2/slide_bg-desktop.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+
+            &:nth-child(3) {
+                background-image: url('../img/head/slide-3/slide_bg-desktop.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+
         }
 
         &__title {

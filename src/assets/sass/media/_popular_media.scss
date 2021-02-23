@@ -154,3 +154,13 @@
         }
     }
 }
+
+@media (min-width: 1170px) {
+    .popular {
+        .big {
+            &__description {
+                min-height: 350px;
+            }
+        }
+    }
+}
