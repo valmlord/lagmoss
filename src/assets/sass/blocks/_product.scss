@@ -34,7 +34,7 @@
 
             &-description {
                 font-size: 14px;
-                margin-top: 5px;
+                padding: 10px 0;
             }
         }
 
@@ -50,6 +50,7 @@
             padding: 10px 0;
             opacity: 0.5;
             border-bottom: 2px solid $green;
+            text-transform: uppercase;
 
             &-active {
                 opacity: 1;
@@ -69,7 +70,27 @@
                 font-size: 14px;
                 opacity: 0.8;
                 color: $brown;
-                font-weight: 600;
+                font-weight: 500;
+            }
+        }
+
+        &__features {
+            padding: 10px 0;
+
+            &-item {
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                padding: 5px 0;
+            }
+
+            &-name {
+                flex-basis: 50%;
+            }
+
+            &-value {
+                flex-basis: 50%;
+                text-align: right;
             }
         }
     }
