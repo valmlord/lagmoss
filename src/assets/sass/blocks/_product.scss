@@ -30,6 +30,7 @@
             &-title {
                 font-size: 36px;
                 font-weight: bold;
+                color: $green;
             }
 
             &-description {
@@ -51,6 +52,7 @@
             opacity: 0.5;
             border-bottom: 2px solid $green;
             text-transform: uppercase;
+            cursor: pointer;
 
             &-active {
                 opacity: 1;
@@ -74,6 +76,32 @@
             }
         }
 
+        &__materials {
+            margin-top: 15px;
+
+            &-item {
+                display: flex;
+                flex-direction: column;
+                border: 0;
+                padding: 10px 0;
+                font-size: 14px;
+                font-weight: 500;
+
+                select {
+                    padding: 10px;
+                    border-radius: 10px;
+                    color: $black;
+                    border-color: $green;
+                    margin-top: 5px;
+                }
+            }
+
+            &-description {
+                padding: 15px 0;
+                font-size: 14px;
+            }
+        }
+
         &__features {
             padding: 10px 0;
 
@@ -91,6 +119,18 @@
             &-value {
                 flex-basis: 50%;
                 text-align: right;
+            }
+        }
+
+        &__order {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+
+            &-price {
+                font-size: 24px;
+                font-weight: 500;
             }
         }
     }

@@ -24,4 +24,13 @@
     text-transform: uppercase;
     font-size: 10px;
   }
+
+  &-order {
+    background-color: $green;
+    color: $white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+  }
 }
