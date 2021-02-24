@@ -1,14 +1,16 @@
-$(".main-slider").slick({
-  autoplay: true,
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  adaptiveHeight: true,
-  arrow: false,
-  fade: true,
+import tabs from "./modules/tabs";
+
+window.addEventListener("DOMContentLoaded", () => {
+  "use strict";
+  tabs(
+    ".product-card__tabs",
+    ".product-card__tab",
+    ".product-card__tab-content",
+    "product-card__tab-active"
+  );
 });
-$(".main-slider .slick-arrow").remove();
+
+// HAMBURGER
 
 window.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".mobile"),
@@ -36,20 +38,37 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// MAIN SLIDER
+
+$(".main-slider").slick({
+  autoplay: true,
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  adaptiveHeight: true,
+  arrow: false,
+  fade: true,
+});
+$(".main-slider .slick-arrow").remove();
+
+// PRODUCT CARD SLIDER
+
 $(".product-card__slider").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  fade: false,
-  asNavFor: ".slider-nav-thumbnails",
+  fade: true,
+  asNavFor: ".product-card__nav-thumbnails",
 });
 
 $(".product-card__nav-thumbnails").slick({
-  slidesToShow: 5,
+  slidesToShow: 3,
   slidesToScroll: 1,
   asNavFor: ".product-card__slider",
   dots: false,
-  focusOnSelect: true,
+  focusOnSelect: false,
+  arrow: false,
 });
 
 // Remove active class from all thumbnail slides

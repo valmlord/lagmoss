@@ -3,27 +3,91 @@
         &__slider {
             margin: 15px 0;
 
-            &-img {}
+            &-img {
+                width: 100%;
+                min-height: 290px;
+            }
         }
 
         &__nav {
             &-thumbnails {
 
-                &-item {}
+                width: 100%;
 
                 &-img {
-                    width: 90px;
+                    min-width: 80px;
+                    min-height: 80px;
                 }
+            }
+        }
+
+        &__info {
+            &-type {
+                margin-top: 15px;
+                font-size: 16px;
+            }
+
+            &-title {
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            &-description {
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+
+        &__tabs {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__tab {
+            padding: 10px 0;
+            opacity: 0.5;
+            border-bottom: 2px solid $green;
+
+            &-active {
+                opacity: 1;
+            }
+
+            &-content {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &-paragraph {
+                padding: 15px 0;
+                font-size: 14px;
+            }
+
+            &-link {
+                font-size: 14px;
+                opacity: 0.8;
+                color: $brown;
+                font-weight: 600;
             }
         }
     }
 }
 
-.slider-nav-thumbnails .slick-slide {
+.product-card__nav-thumbnails .slick-slide {
     opacity: 0.5;
 }
 
-.slider-nav-thumbnails .slick-slide.slick-active {
+.product-card__nav-thumbnails .slick-slide .slick-active {
     opacity: 1;
     background: $brown;
+}
+
+.product-card__nav-thumbnails .slick-slide:first-child {
+    margin-left: 0;
+}
+
+.product-card__nav-thumbnails .slick-slide:last-child {
+    margin-right: 0;
 }
