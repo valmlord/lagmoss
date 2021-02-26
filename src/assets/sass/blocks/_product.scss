@@ -6,6 +6,7 @@
             &-img {
                 width: 100%;
                 min-height: 290px;
+                border-radius: 10px;
             }
         }
 
@@ -17,6 +18,7 @@
                 &-img {
                     min-width: 85px;
                     min-height: 85px;
+                    border-radius: 10px;
                 }
             }
         }
@@ -78,6 +80,7 @@
                 opacity: 0.8;
                 color: $brown;
                 font-weight: 500;
+                padding: 10px 0;
             }
         }
 

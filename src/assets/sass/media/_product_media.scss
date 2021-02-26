@@ -59,6 +59,7 @@
             }
 
             &__info {
+
                 &-description {
                     font-size: 12px;
                 }
@@ -93,6 +94,64 @@
                     padding-top: 5px;
                 }
             }
+
+            &__order {
+                display: flex;
+                align-items: flex-end;
+            }
+
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .product {
+        &-card {
+            &__slider {
+                &-img {
+                    min-height: 463px;
+                }
+            }
+
+            &__options {
+                min-height: 322px;
+            }
+
+            &__info {
+                justify-content: space-between;
+
+                &-description {
+                    font-size: 16px;
+                }
+            }
+
+            &__materials {
+                display: flex;
+                justify-content: space-between;
+
+                &-item {
+                    font-size: 16px;
+                }
+
+                &-description {
+                    font-size: 16px;
+                }
+            }
+
+            &__tabs {
+                font-size: 14px;
+            }
+
+            &__tab {
+                &-paragraph {
+                    font-size: 16px;
+                }
+
+                &-link {
+                    font-size: 16px;
+                }
+            }
+
         }
     }
 }
