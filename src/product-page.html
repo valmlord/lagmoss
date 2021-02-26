@@ -151,8 +151,10 @@
                     </li>
                 </ul>
                 <div class="breadcrumbs-nav">
-                    <a class="breadcrumbs-nav__prev" href="#"><span class="icon-prev"></span>Предыдущий</a>
-                    <a class="breadcrumbs-nav__next" href="#">Следующий <span class="icon-next"></span></a>
+                    <a class="breadcrumbs-nav__prev" href="#"><span class="icon-prev"></span>
+                        <span class="breadcrumbs-nav__descr">Предыдущий</span></a>
+                    <a class="breadcrumbs-nav__next" href="#"><span class="breadcrumbs-nav__descr">Следующий</span>
+                        <span class="icon-next"></span></a>
                 </div>
             </div>
         </div>
@@ -162,230 +164,238 @@
         <div class="container">
             <div class="product-card">
 
-                <div class="product-card__slider">
-
-                    <div class="product-card__slider-item">
-                        <img class="product-card__slider-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-1-small.jpg" height="290"
-                            alt="el-paso chair">
+                <div class="product-card__inner-slider">
+                    <div class="product-card__slider">
+                        <div class="product-card__slider-item">
+                            <img class="product-card__slider-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-1-small.jpg" height="290"
+                                alt="el-paso chair">
+                        </div>
+                        <div class="product-card__slider-item">
+                            <img class="product-card__slider-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-2-small.jpg" height="290"
+                                alt="el-paso chair">
+                        </div>
+                        <div class="product-card__slider-item">
+                            <img class="product-card__slider-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-3-small.jpg" height="290"
+                                alt="el-paso chair">
+                        </div>
                     </div>
 
-                    <div class="product-card__slider-item">
-                        <img class="product-card__slider-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-2-small.jpg" height="290"
-                            alt="el-paso chair">
-                    </div>
-
-                    <div class="product-card__slider-item">
-                        <img class="product-card__slider-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-3-small.jpg" height="290"
-                            alt="el-paso chair">
-                    </div>
-
-                </div>
-
-                <div class="product-card__nav-thumbnails">
-                    <div>
-                        <img class="product-card__nav-thumbnails-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-1.jpg" alt="first-trumbnail">
-                    </div>
-                    <div>
-                        <img class="product-card__nav-thumbnails-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-2.jpg" alt="second-trumbnail">
-                    </div>
-                    <div>
-                        <img class="product-card__nav-thumbnails-img"
-                            src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-3.jpg" alt="third-trumbnail">
+                    <div class="product-card__nav-thumbnails">
+                        <div>
+                            <img class="product-card__nav-thumbnails-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-1.jpg" alt="first-trumbnail">
+                        </div>
+                        <div>
+                            <img class="product-card__nav-thumbnails-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-2.jpg" alt="second-trumbnail">
+                        </div>
+                        <div>
+                            <img class="product-card__nav-thumbnails-img"
+                                src="assets/img/catalog/chairs/el-paso/el-paso-trumbnail-3.jpg" alt="third-trumbnail">
+                        </div>
                     </div>
                 </div>
 
-                <div class="product-card__info">
-                    <p class="product-card__info-type">
-                        Кресло
-                    </p>
-                    <h1 class="product-card__info-title">
-                        EL-PASO
-                    </h1>
-                    <p class="product-card__info-description">
-                        Повседневная практика показывает, что начало повседневной работы по формированию позиции требуют
-                        определения и уточнения направлений прогрессивного развития.Идейные высшего порядка, а также
-                        постоянное информационно - пропагандистское обеспечение нашей деятельности требуют
-                    </p>
-                </div>
-
-                <div class="product-card__options">
-                    <ul class="product-card__tabs">
-                        <li class="product-card__tab">
-                            <a>Выбор материалов</a>
-                        </li>
-                        <li class="product-card__tab">
-                            <a>Характеристики</a>
-                        </li>
-                        <li class="product-card__tab">
-                            <a>Оплата и Доставка</a>
-                        </li>
-                    </ul>
-
-                    <div class="product-card__tab-content faded">
-
-                        <form class="product-card__materials" action="#">
-
-                            <fieldset class="product-card__materials-item">
-                                <label for="wood-type">Тип дерева:</label>
-                                <select name="wood-type" id="wood-type">
-                                    <option value="oak" data-class="oak">Дуб</option>
-                                    <option value="pine" data-class="pine">Сосна</option>ы
-                                </select>
-                            </fieldset>
-
-                            <fieldset class="product-card__materials-item">
-                                <label for="wood-color">Цвет дерева:</label>
-                                <select name="wood-color" id="wood-color">
-                                    <option value="venge" data-class="venge">Венге</option>
-                                    <option value="mahogany" data-class="mahogany">Красное дерево</option>
-                                    <option value="walnut" data-class="walnut">Орех</option>
-                                </select>
-                            </fieldset>
-
-                            <fieldset class="product-card__materials-item">
-                                <label for="metal-color">Цвет металла:</label>
-                                <select name="metal-color" id="metal-color">
-                                    <option value="antique-brass" data-class="antique-brass">Античная латунь</option>
-                                    <option value="copper" data-class="copper">Медь</option>
-                                    <option value="black-nickel" data-class="black-nickel">Черный никель</option>
-                                </select>
-                            </fieldset>
-
-                        </form>
-
-                        <p class="product-card__materials-description">
-                            Повседневная практика показывает, что начало повседневной работы по формированию позиции
-                            требуют определения и уточнения направлений прогрессивного развития. Идейные высшего
-                            порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности
-                            требуют
+                <div class="product-card__inner-info">
+                    <div class="product-card__info">
+                        <p class="product-card__info-type">
+                            Кресло
                         </p>
-
+                        <h1 class="product-card__info-title">
+                            EL-PASO
+                        </h1>
+                        <p class="product-card__info-description">
+                            Повседневная практика показывает, что начало повседневной работы по формированию позиции
+                            требуют
+                            определения и уточнения направлений прогрессивного развития.Идейные высшего порядка, а также
+                            постоянное информационно - пропагандистское обеспечение нашей деятельности требуют
+                        </p>
                     </div>
 
-                    <div class="product-card__tab-content faded">
-                        <ul class="product-card__features">
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Ширина:
-                                </div>
-                                <div class="product-card__features-value">
-                                    242 см
-                                </div>
+
+                    <div class="product-card__options">
+                        <ul class="product-card__tabs">
+                            <li class="product-card__tab">
+                                <a>Выбор материалов</a>
                             </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Глубина
-                                </div>
-                                <div class="product-card__features-value">
-                                    97 см
-                                </div>
+                            <li class="product-card__tab">
+                                <a>Характеристики</a>
                             </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Высота
-                                </div>
-                                <div class="product-card__features-value">
-                                    75 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Высота спинки
-                                </div>
-                                <div class="product-card__features-value">
-                                    36 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Высота подлокотников
-                                </div>
-                                <div class="product-card__features-value">
-                                    75 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Материал каркаса
-                                </div>
-                                <div class="product-card__features-value">
-                                    Лиственница
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Высота сиденья
-                                </div>
-                                <div class="product-card__features-value">
-                                    43 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Глубина сиденья
-                                </div>
-                                <div class="product-card__features-value">
-                                    58 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Высота ножек
-                                </div>
-                                <div class="product-card__features-value">
-                                    8 см
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Система поддержки
-                                </div>
-                                <div class="product-card__features-value">
-                                    спинки - эластичные ремни
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Система поддержки
-                                </div>
-                                <div class="product-card__features-value">
-                                    сиденья - пружинный блок змейка, эластичные ремни
-                                </div>
-                            </li>
-                            <li class="product-card__features-item">
-                                <div class="product-card__features-name">
-                                    Вес в упаковке
-                                </div>
-                                <div class="product-card__features-value">
-                                    90.17 кг
-                                </div>
+                            <li class="product-card__tab">
+                                <a>Оплата и Доставка</a>
                             </li>
                         </ul>
-                    </div>
 
-                    <div class="product-card__tab-content faded">
-                        <p class="product-card__tab-paragraph">
-                            Оплата: возможна пластиковыми картами, банковским переводом, наличными; на сайте, в наших
-                            магазинах, при получении доставки.
-                        </p>
-                        <p class="product-card__tab-paragraph">
-                            Доставка: возможна по всей территории Российской Федерации. Осуществляется в ближайшие дни
-                            после покупки. Наш ассортимент очень разнообразен по весу и объему, поэтому стоимость и
-                            сроки доставки необходимо уточнять у сотрудников магазинов.
-                        </p>
-                        <a class="product-card__tab-link" href="javascript:void(0)">Подробнее о Доставке и Оплате</a>
-                    </div>
-                </div>
+                        <div class="product-card__tab-content faded">
 
-                <div class="product-card__order">
-                    <button class="btn btn-order">В корзину</button>
-                    <div class="product-card__order-price">
-                        от 14 000 ₽
+                            <form class="product-card__materials" action="#">
+
+                                <fieldset class="product-card__materials-item">
+                                    <label for="wood-type">Тип дерева:</label>
+                                    <select name="wood-type" id="wood-type">
+                                        <option value="oak" data-class="oak">Дуб</option>
+                                        <option value="pine" data-class="pine">Сосна</option>ы
+                                    </select>
+                                </fieldset>
+
+                                <fieldset class="product-card__materials-item">
+                                    <label for="wood-color">Цвет дерева:</label>
+                                    <select name="wood-color" id="wood-color">
+                                        <option value="venge" data-class="venge">Венге</option>
+                                        <option value="mahogany" data-class="mahogany">Красное дерево</option>
+                                        <option value="walnut" data-class="walnut">Орех</option>
+                                    </select>
+                                </fieldset>
+
+                                <fieldset class="product-card__materials-item">
+                                    <label for="metal-color">Цвет металла:</label>
+                                    <select name="metal-color" id="metal-color">
+                                        <option value="antique-brass" data-class="antique-brass">Античная латунь
+                                        </option>
+                                        <option value="copper" data-class="copper">Медь</option>
+                                        <option value="black-nickel" data-class="black-nickel">Черный никель</option>
+                                    </select>
+                                </fieldset>
+
+                            </form>
+
+                            <p class="product-card__materials-description">
+                                Повседневная практика показывает, что начало повседневной работы по формированию позиции
+                                требуют определения и уточнения направлений прогрессивного развития. Идейные высшего
+                                порядка, а также постоянное информационно-пропагандистское обеспечение нашей
+                                деятельности
+                                требуют
+                            </p>
+
+                        </div>
+
+                        <div class="product-card__tab-content faded">
+                            <ul class="product-card__features">
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Ширина:
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        242 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Глубина
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        97 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Высота
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        75 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Высота спинки
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        36 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Высота подлокотников
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        75 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Материал каркаса
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        Лиственница
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Высота сиденья
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        43 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Глубина сиденья
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        58 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Высота ножек
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        8 см
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Система поддержки
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        спинки - эластичные ремни
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Система поддержки
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        сиденья - пружинный блок змейка, эластичные ремни
+                                    </div>
+                                </li>
+                                <li class="product-card__features-item">
+                                    <div class="product-card__features-name">
+                                        Вес в упаковке
+                                    </div>
+                                    <div class="product-card__features-value">
+                                        90.17 кг
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="product-card__tab-content faded">
+                            <p class="product-card__tab-paragraph">
+                                Оплата: возможна пластиковыми картами, банковским переводом, наличными; на сайте, в
+                                наших
+                                магазинах, при получении доставки.
+                            </p>
+                            <p class="product-card__tab-paragraph">
+                                Доставка: возможна по всей территории Российской Федерации. Осуществляется в ближайшие
+                                дни
+                                после покупки. Наш ассортимент очень разнообразен по весу и объему, поэтому стоимость и
+                                сроки доставки необходимо уточнять у сотрудников магазинов.
+                            </p>
+                            <a class="product-card__tab-link" href="javascript:void(0)">Подробнее о Доставке и
+                                Оплате</a>
+                        </div>
+
+
+                        <div class="product-card__order">
+                            <button class="btn btn-order">В КОРЗИНУ</button>
+                            <div class="product-card__order-price">
+                                от 14 000 ₽
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
