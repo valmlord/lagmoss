@@ -26,3 +26,20 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    .catalog {
+        &-categories {
+            display: none;
+        }
+
+        &-nav {
+            display: flex;
+            width: 20%;
+        }
+
+        &-items {
+            width: 80%;
+        }
+    }
+}
