@@ -49,7 +49,6 @@
         .main-slider {
             &__item {
                 background-image: url('../img/head/slide-1/slide_bg-tablet.webp');
-                min-height: 500px;
 
                 &:nth-child(2) {
                     background-image: url('../img/head/slide-2/slide_bg-tablet.webp');
@@ -111,10 +110,6 @@
         }
 
         .main-slider {
-            &__item {
-                background-image: url('../img/head/slide-1/slide_bg-tablet.webp');
-            }
-
             &__description {
                 display: flex;
                 flex-direction: column;
