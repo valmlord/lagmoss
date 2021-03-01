@@ -1,0 +1,31 @@
+@media (min-width: 640px) {
+    .catalog {
+        &-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &-item {
+            width: 47%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .catalog {
+        &-categories {
+            display: none;
+        }
+
+        &-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &-item {
+            width: 47%;
+        }
+    }
+}
