@@ -29,6 +29,11 @@
 
 @media (min-width: 1024px) {
     .catalog {
+        &-inner {
+            display: flex;
+            flex-direction: row;
+        }
+
         &-categories {
             display: none;
         }
