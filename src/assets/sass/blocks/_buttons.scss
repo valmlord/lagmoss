@@ -33,4 +33,15 @@
     border: none;
     border-radius: 5px;
   }
+
+  &-promocode {
+    width: 50%;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    color: $white;
+    background: $green;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
