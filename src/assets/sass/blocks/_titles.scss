@@ -1,13 +1,7 @@
 .title {
-    .underline {
-        border-bottom: 1px solid $green;
-    }
-
     &--cursive {
-        color: $brown;
-        background-color: $green;
+        border-top: 2px solid $green;
         padding: 5px 10px;
-        border-radius: 10px;
     }
 
     &-section {
