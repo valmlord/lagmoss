@@ -1,7 +1,7 @@
 .title {
-    &--cursive {
-        border-top: 2px solid $green;
-        padding: 5px 10px;
+    &-upline {
+        border: 2px solid $green;
+        width: 60px;
     }
 
     &-section {
