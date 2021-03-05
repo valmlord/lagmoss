@@ -2183,7 +2183,8 @@ window.addEventListener("DOMContentLoaded", function () {
   "use strict";
 
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])(".product-card__tabs", ".product-card__tab", ".product-card__tab-content", "product-card__tab-active");
-}); // HAMBURGER
+});
+AOS.init(); // HAMBURGER
 
 window.addEventListener("DOMContentLoaded", function () {
   var menu = document.querySelector(".mobile"),
@@ -2191,19 +2192,19 @@ window.addEventListener("DOMContentLoaded", function () {
       socialIcon = document.querySelectorAll(".social__icon"),
       hamburger = document.querySelector(".hamburger");
   hamburger.addEventListener("click", function () {
-    hamburger.classList.toggle("hamburger_active");
-    menu.classList.toggle("mobile_active");
+    hamburger.classList.toggle("hamburger--active");
+    menu.classList.toggle("mobile--active");
   });
   mobileMenuItem.forEach(function (item) {
     item.addEventListener("click", function () {
-      hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("mobile_active");
+      hamburger.classList.toggle("hamburger--active");
+      menu.classList.toggle("mobile--active");
     });
   });
   socialIcon.forEach(function (item) {
     item.addEventListener("click", function () {
-      hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("mobile_active");
+      hamburger.classList.toggle("hamburger--active");
+      menu.classList.toggle("mobile--active");
     });
   });
 }); // MAIN SLIDER

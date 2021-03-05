@@ -10,7 +10,7 @@
         text-align: center;
         border-radius: 5px;
         color: $black;
-        padding: 8px;
+        padding: 5px;
         border: 1px solid $green;
         text-transform: uppercase;
         font-size: 12px;
@@ -22,16 +22,20 @@
         &:first-child {
             min-width: 100%;
             background: $green;
-            padding: 10px 0;
+            padding: 8px 0;
             color: $white;
 
             &:hover {
                 color: $black;
+                color: $white;
+                border-color: 1px solid #01B263;
             }
         }
 
         &:hover {
             background: #01B263;
+            color: $white;
+            border: 1px solid #01B263
         }
 
         &:active {

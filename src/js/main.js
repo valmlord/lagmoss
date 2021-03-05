@@ -10,6 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
   );
 });
 
+AOS.init();
+
 // HAMBURGER
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -19,21 +21,21 @@ window.addEventListener("DOMContentLoaded", () => {
     hamburger = document.querySelector(".hamburger");
 
   hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("hamburger_active");
-    menu.classList.toggle("mobile_active");
+    hamburger.classList.toggle("hamburger--active");
+    menu.classList.toggle("mobile--active");
   });
 
   mobileMenuItem.forEach((item) => {
     item.addEventListener("click", () => {
-      hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("mobile_active");
+      hamburger.classList.toggle("hamburger--active");
+      menu.classList.toggle("mobile--active");
     });
   });
 
   socialIcon.forEach((item) => {
     item.addEventListener("click", () => {
-      hamburger.classList.toggle("hamburger_active");
-      menu.classList.toggle("mobile_active");
+      hamburger.classList.toggle("hamburger--active");
+      menu.classList.toggle("mobile--active");
     });
   });
 });
