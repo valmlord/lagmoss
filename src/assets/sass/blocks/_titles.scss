@@ -1,13 +1,14 @@
 .title {
     &-upline {
         border: 2px solid $green;
-        width: 60px;
+        border-radius: 50px;
+        width: 30px;
     }
 
     &-section {
         font-size: 20px;
         font-weight: 300;
         text-transform: uppercase;
-        line-height: 2;
+        line-height: 1.5;
     }
 }

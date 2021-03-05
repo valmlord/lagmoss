@@ -19,11 +19,10 @@
 
     &__description {
         color: $black;
-        width: 47%;
     }
 
     &__image {
-        width: 47%;
+        min-width: 100px;
         border-radius: 10px;
     }
 
