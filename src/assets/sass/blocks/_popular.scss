@@ -50,26 +50,15 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            border-radius: 5px;
+            margin-top: 15px;
         }
 
         &__description {
             display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            flex-direction: column;
-            min-height: 180px;
-            border-radius: 10px;
-            margin-top: 15px;
-            padding: 15px;
+            justify-content: space-between;
             color: $black;
-
-            &-first {
-                background: url("../img/popular/bigcard-1.jpg") (center / cover) no-repeat;
-            }
-
-            &-second {
-                background: url("../img/popular/bigcard-2.jpg") (center / cover) no-repeat;
-            }
+            margin-top: 15px;
         }
 
         &__type {
@@ -84,8 +73,9 @@
         }
 
         &__price {
-            color: $white;
+            color: $black;
             font-size: 16px;
+            font-weight: 600;
         }
     }
 
@@ -98,14 +88,13 @@
     justify-content: space-between;
 
     &__card {
-        padding: 15px 0;
         display: flex;
         flex-direction: column;
         width: 47.5%;
     }
 
     &__img {
-        border-radius: 10px;
+        border-radius: 5px;
     }
 
     &__name {

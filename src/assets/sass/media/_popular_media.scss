@@ -1,10 +1,6 @@
 @media (min-width: 375px) {
     .popular {
         .big {
-            &__description {
-                min-height: 200px;
-            }
-
             &__name {
                 font-size: 18px;
                 margin-top: 5px;
@@ -38,7 +34,7 @@
             }
 
             &__link {
-                width: 120px;
+                width: 50%;
                 height: 40px;
                 font-size: 12px;
                 margin-top: 15px;
@@ -51,9 +47,6 @@
 @media (min-width: 425px) {
     .popular {
         .big {
-            &__description {
-                min-height: 250px;
-            }
 
             &__name {
                 font-size: 22px;
@@ -84,15 +77,6 @@
     }
 }
 
-@media (min-width: 600px) {
-    .popular {
-        .big {
-            &__description {
-                min-height: 300px;
-            }
-        }
-    }
-}
 
 @media (min-width: 768px) {
     .popular {
@@ -133,10 +117,6 @@
             justify-content: space-between;
             margin-top: 15px;
 
-            &__description {
-                min-height: 250px;
-            }
-
             &__card {
                 width: 48.5%;
             }
@@ -150,16 +130,6 @@
             &__card {
                 width: 23%;
                 margin-top: 30px;
-            }
-        }
-    }
-}
-
-@media (min-width: 1170px) {
-    .popular {
-        .big {
-            &__description {
-                min-height: 350px;
             }
         }
     }

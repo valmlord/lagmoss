@@ -69,10 +69,14 @@ gulp.task("icons", function () {
   return gulp.src("src/assets/icons/**/*").pipe(gulp.dest("dist/assets/icons"));
 });
 
+gulp.task("image", function () {
+  return gulp.src("src/assets/img/**/*").pipe(gulp.dest("dist/assets/img"));
+});
+
 // gulp.task("images", function () {
 //   return gulp
 //     .src("src/assets/img/**/*")
-//     .pipe(imagemin())
+//     //.pipe(imagemin())
 //     .pipe(gulp.dest("dist/assets/img"));
 // });
 
@@ -124,6 +128,7 @@ gulp.task(
     "styles",
     "fonts",
     "icons",
+    "image",
     "html",
     "build-js"
   )
