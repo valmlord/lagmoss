@@ -2,112 +2,6 @@
     .categories {
         &__link {
             min-height: 140px;
-
-            &--chest {
-                grid-area: chest;
-                background: url('../img/categories/chest/chest-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--consoles {
-                grid-area: consoles;
-                background: url('../img/categories/consoles/consoles-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--chairs {
-                grid-area: chairs;
-                background: url('../img/categories/chairs/chairs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--racks {
-                grid-area: racks;
-                background: url('../img/categories/racks/racks-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--coffee {
-                grid-area: coffee;
-                background: url('../img/categories/coffee-tables/coffee-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--seats {
-                grid-area: seats;
-                background: url('../img/categories/seats/seats-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--tv-table {
-                grid-area: tv-table;
-                background: url('../img/categories/tv-table/tv-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--shelfs {
-                grid-area: shelfs;
-                background: url('../img/categories/shelfs/shelfs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--wardrobe {
-                grid-area: wardrobe;
-                background: url('../img/categories/wardrobe/wardrobe-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--dinner {
-                grid-area: dinner;
-                background: url('../img/categories/dinner-tables/dinner-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--hangers {
-                grid-area: hangers;
-                background: url('../img/categories/hangers/hangers-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--bar-chairs {
-                grid-area: bar-chairs;
-                background: url('../img/categories/bar-chairs/bar-chairs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--shoe-cabinets {
-                grid-area: shoe-cabinets;
-                background: url('../img/categories/shoe-cabinets/shoe-cabinets-large.webp');
-                background-size: cover;
-                background-position: center;
-
-            }
-
-            &--table {
-                grid-area: table;
-                background: url('../img/categories/table/table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--desk {
-                grid-area: desk;
-                background: url('../img/categories/desk-tables/desk-tables-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
         }
     }
 }
@@ -117,112 +11,6 @@
         &__link {
             min-height: 180px;
             font-size: 18px;
-
-            &--chest {
-                grid-area: chest;
-                background: url('../img/categories/chest/chest-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--consoles {
-                grid-area: consoles;
-                background: url('../img/categories/consoles/consoles-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--chairs {
-                grid-area: chairs;
-                background: url('../img/categories/chairs/chairs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--racks {
-                grid-area: racks;
-                background: url('../img/categories/racks/racks-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--coffee {
-                grid-area: coffee;
-                background: url('../img/categories/coffee-tables/coffee-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--seats {
-                grid-area: seats;
-                background: url('../img/categories/seats/seats-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--tv-table {
-                grid-area: tv-table;
-                background: url('../img/categories/tv-table/tv-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--shelfs {
-                grid-area: shelfs;
-                background: url('../img/categories/shelfs/shelfs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--wardrobe {
-                grid-area: wardrobe;
-                background: url('../img/categories/wardrobe/wardrobe-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--dinner {
-                grid-area: dinner;
-                background: url('../img/categories/dinner-tables/dinner-table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--hangers {
-                grid-area: hangers;
-                background: url('../img/categories/hangers/hangers-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--bar-chairs {
-                grid-area: bar-chairs;
-                background: url('../img/categories/bar-chairs/bar-chairs-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--shoe-cabinets {
-                grid-area: shoe-cabinets;
-                background: url('../img/categories/shoe-cabinets/shoe-cabinets-large.webp');
-                background-size: cover;
-                background-position: center;
-
-            }
-
-            &--table {
-                grid-area: table;
-                background: url('../img/categories/table/table-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
-
-            &--desk {
-                grid-area: desk;
-                background: url('../img/categories/desk-tables/desk-tables-large.webp');
-                background-size: cover;
-                background-position: center;
-            }
         }
     }
 }
@@ -309,7 +97,7 @@
 
             &--seats {
                 grid-area: seats;
-                background: url('../img/categories/seats/seats@2x.webp');
+                background: url('../img/categories/seats/chair@2x.webp');
                 background-size: cover;
                 background-position: center;
             }
@@ -351,7 +139,7 @@
 
             &--bar-chairs {
                 grid-area: bar-chairs;
-                background: url('../img/categories/bar-chairs/bar-chairs@2x.webp');
+                background: url('../img/categories/bar-chairs/bar-chair@2x.webp');
                 background-size: cover;
                 background-position: center;
             }
