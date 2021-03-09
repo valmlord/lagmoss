@@ -7,14 +7,8 @@
     &__item {
         margin: 15px 0;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         overflow: hidden;
-
-        &-reverse {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row-reverse;
-        }
     }
 
     &__description {
@@ -22,17 +16,18 @@
     }
 
     &__image {
-        min-width: 100px;
-        border-radius: 10px;
+        width: 100%;
+        border-radius: 5px;
     }
 
     &__title {
-        font-size: 12px;
+        font-size: 16px;
         text-transform: uppercase;
+        margin-top: 15px;
     }
 
     &__info {
-        font-size: 10px;
-        margin-top: 5px;
+        font-size: 14px;
+        margin-top: 10px;
     }
 }
