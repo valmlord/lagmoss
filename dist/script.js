@@ -2278,7 +2278,7 @@ var tabs = function tabs(headerSelector, tabSelector, contentSelector, activeCla
 
   function hideTabContent() {
     content.forEach(function (item) {
-      item.style.display = 'none';
+      item.style.display = "none";
     });
     tab.forEach(function (item) {
       item.classList.remove(activeClass);
@@ -2287,13 +2287,13 @@ var tabs = function tabs(headerSelector, tabSelector, contentSelector, activeCla
 
   function showTabContent() {
     var i = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-    content[i].style.display = 'flex';
+    content[i].style.display = "block";
     tab[i].classList.add(activeClass);
   }
 
   hideTabContent();
   showTabContent();
-  header.addEventListener('click', function (e) {
+  header.addEventListener("click", function (e) {
     var target = e.target;
 
     if (target && (target.classList.contains(tabSelector.replace(/\./, "")) || target.parentNode.classList.contains(tabSelector.replace(/\./, "")))) {

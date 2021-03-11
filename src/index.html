@@ -9,7 +9,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="assets/css/style.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>LAGMOSS</title>
 </head>
 
@@ -196,7 +195,7 @@
   <section class="categories">
     <div class="container">
       <h3 class="title title-section">
-        <hr class="title-upline">
+        <span class="title-upline"></span>
         ИЗГОТОВИМ В КРОТЧАЙШИЕ СРОКИ
       </h3>
       <div class="categories__grid categories__grid--first" data-aos="fade-down">
@@ -228,7 +227,7 @@
   <section class="popular">
     <div class="container">
       <h3 class="title title-section">
-        <hr class="title-upline">
+        <span class="title-upline"></span>
         ПОПУЛЯРНЫЕ ТОВАРЫ
       </h3>
       <div class="popular__links">
@@ -242,10 +241,12 @@
       </div>
       <div class="popular__products products">
         <div class="products__big big">
-          <a class="big__card hvr-grow" href="product-page.html">
+          <a class="big__card hvr-grow" href="product.html">
             <img class="big__image" src="assets/img/catalog/seats/el-paso/el-paso01.webp" srcset="assets/img/catalog/seats/el-paso/el-paso01.webp 200w, 
-                      assets/img/catalog/seats/el-paso/el-paso01@2x.webp 400w,
-                      assets/img/catalog/seats/el-paso/el-paso01@3x.webp 600w" alt="big-card">
+                    assets/img/catalog/seats/el-paso/el-paso01@2x.webp 400w,
+                    assets/img/catalog/seats/el-paso/el-paso01@3x.webp 600w" sizes="(min-width: 320px) 290px,
+                   (min-width: 480px) 440px,
+                    800px" alt="big-card">
             <div class="big__description big__description-first">
               <div>
                 <div class="big__name">El-PASO</div>
@@ -268,43 +269,52 @@
           </a>
         </div>
         <div class="products__small small">
+
           <div class="small__card hvr-grow">
             <img class="small__img" src="assets/img/catalog/storage/console/portland/portland01.webp" srcset="assets/img/catalog/storage/console/portland/portland01.webp 200w, 
                                     assets/img/catalog/storage/console/portland/portland01@2x.webp 400w,
                                     assets/img/catalog/storage/console/portland/portland01@3x.webp 600w"
               alt="small-product-card">
             <div class="small__name">PORTLAND</div>
-            <div class="small__type">Стеллаж</div>
-            <div class="small__price">от 16 000 ₽</div>
-            <a class="small__link" href="javascript:void(0);">Подробнее</a>
+            <div>
+              <div class="small__type">Стеллаж</div>
+              <div class="small__price">от 16 000 ₽</div>
+            </div>
           </div>
+
           <div class="small__card hvr-grow">
             <img class="small__img" src="assets/img/catalog/storage/table/louiseville/louiseville01.webp" srcset="assets/img/catalog/storage/table/louisville/louisville01.webp 200w, 
             assets/img/catalog/storage/table/louiseville/louiseville01@2x.webp 400w,
             assets/img/catalog/storage/table/louiseville/louiseville01@3x.webp 600w" alt="small-prouct-card">
             <div class="small__name">LOUISVILLE</div>
-            <div class="small__type">Тумба прикроватная</div>
-            <div class="small__price">от 9 000 ₽</div>
-            <a class="small__link" href="javascript:void(0);">Подробнее</a>
+            <div>
+              <div class="small__type">Тумба прикроватная</div>
+              <div class="small__price">от 9 000 ₽</div>
+            </div>
           </div>
+
           <div class="small__card hvr-grow">
             <img class="small__img" src="assets/img/catalog/seats/san-diego/san-diego01.webp" srcset="assets/img/catalog/seats/san-diego/san-diego01.webp 200w, 
             assets/img/catalog/seats/san-diego/san-diego01@2x.webp 400w,
             assets/img/catalog/seats/san-diego/san-diego01@3x.webp 600w" alt="small-card">
             <div class="small__name">SAN-DIEGO</div>
-            <div class="small__type">Барный стул</div>
-            <div class="small__price">от 10 000 ₽</div>
-            <a class="small__link" href="javascript:void(0);">Подробнее</a>
+            <div>
+              <div class="small__type">Барный стул</div>
+              <div class="small__price">от 10 000 ₽</div>
+            </div>
           </div>
+
           <div class="small__card hvr-grow">
             <img class="small__img" src="assets/img/catalog/storage/console/san-antonio/san-antonio01.webp" srcset="assets/img/catalog/storage/console/san-antonio/san-antonio01.webp 200w, 
             assets/img/catalog/storage/console/san-antonio/san-antonio01@2x.webp 400w,
             assets/img/catalog/storage/console/san-antonio/san-antonio01@3x.webp 600w" alt="small-card">
             <div class="small__name">SAN-ANTONIO</div>
-            <div class="small__type">Cтеллаж</div>
-            <div class="small__price">от 12 000 ₽</div>
-            <a class="small__link" href="javascript:void(0);">Подробнее</a>
+            <div>
+              <div class="small__type">Cтеллаж</div>
+              <div class="small__price">от 12 000 ₽</div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -315,7 +325,7 @@
   <section class="article">
     <div class="container">
       <h3 class="title title-section">
-        <hr class="title-upline">
+        <span class="title-upline"></span>
         НОВЫЕ СТАТЬИ
       </h3>
       <div class="article__items">
@@ -443,9 +453,9 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 
