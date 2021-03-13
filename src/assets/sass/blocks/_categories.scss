@@ -51,8 +51,8 @@
         border-radius: 5px;
         padding: 15px;
         color: $white;
-        font-weight: 400;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 13px;
         text-transform: uppercase;
 
         &--chest {
@@ -64,7 +64,7 @@
 
         &--consoles {
             grid-area: consoles;
-            background: url('../img/categories/consoles/console@3x.webp');
+            background: url('../img/categories/consoles/console.webp');
             background-size: cover;
             background-position: center;
         }
@@ -106,14 +106,14 @@
 
         &--shelfs {
             grid-area: shelfs;
-            background: url('../img/categories/shelfs/shelfs-small.webp');
+            background: url('../img/categories/shelfs/shelfs.webp');
             background-size: cover;
             background-position: center;
         }
 
         &--wardrobe {
             grid-area: wardrobe;
-            background: url('../img/categories/wardrobe/wardrobe-small.webp');
+            background: url('../img/categories/wardrobe/wardrobe.webp');
             background-size: cover;
             background-position: center;
         }
@@ -127,7 +127,7 @@
 
         &--hangers {
             grid-area: hangers;
-            background: url('../img/categories/hangers/hangers-small.webp');
+            background: url('../img/categories/hangers/hangers.webp');
             background-size: cover;
             background-position: center;
         }
@@ -141,7 +141,7 @@
 
         &--shoe-cabinets {
             grid-area: shoe-cabinets;
-            background: url('../img/categories/shoe-cabinets/shoe-cabinets-small.webp');
+            background: url('../img/categories/shoe-cabinets/shoe-cabinet.webp');
             background-size: cover;
             background-position: center;
 
@@ -149,7 +149,7 @@
 
         &--table {
             grid-area: table;
-            background: url('../img/categories/table/table-small.webp');
+            background: url('../img/categories/table/table.webp');
             background-size: cover;
             background-position: center;
         }
