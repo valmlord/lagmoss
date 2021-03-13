@@ -10,6 +10,9 @@
     .categories {
         &__link {
             min-height: 180px;
+        }
+
+        &__name {
             font-size: 18px;
         }
     }
@@ -58,7 +61,6 @@
 
         &__link {
             min-height: 150px;
-            font-size: 16px;
 
             &--chest {
                 grid-area: chest;
@@ -166,6 +168,11 @@
                 background-position: center;
             }
         }
+        &__name {
+            font-size: 16px;
+            top: 15px;
+            left: 15px;
+        }
     }
 }
 
@@ -177,7 +184,6 @@
         }
 
         &__link {
-            font-size: 22px;
             min-height: 180px;
 
             &--chest {
@@ -285,6 +291,10 @@
                 background-size: cover;
                 background-position: center;
             }
+        }
+
+        &__name {
+            font-size: 22px;
         }
     }
 }
