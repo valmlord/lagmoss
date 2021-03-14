@@ -5,7 +5,7 @@
     }
 
     &__item {
-        margin: 15px 0;
+        margin-top: 15px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
@@ -22,13 +22,13 @@
     }
 
     &__title {
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     &__info {
-        font-size: 14px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 5px;
     }
 }

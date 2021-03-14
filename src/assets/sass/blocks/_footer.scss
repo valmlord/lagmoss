@@ -1,11 +1,11 @@
 .footer {
+    margin-top: 15px;
     background: $black;
 
     &-inner {
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
-        min-height: 300px;
     }
 
     &-categories {
@@ -50,11 +50,9 @@
     }
 
     &__icon {
-        //background: $green;
-        //border-radius: 5px;
         color: $white;
-        font-size: 28px;
-        margin-left: 20fbvpx;
+        font-size: 30px;
+        margin-left: 20px;
         line-height: 1.7;
         text-align: center;
         cursor: pointer;
@@ -139,24 +137,15 @@
         flex-direction: column;
         justify-content: space-between;
         color: $white;
-        font-size: 12px;
-        min-height: 80px;
+        font-size: 10px;
         opacity: 0.4;
-        padding: 15px 0 15px 0;
+        text-align: right;
+        margin-top: 10px;
 
         &__cookies {
             color: $brown;
             transition: 0.5s all;
-
-            &:hover {
-                color: $green;
-            }
-        }
-
-        &__developer {
-            display: none;
-            color: $brown;
-            transition: 0.5s all;
+            padding: 5px 0;
 
             &:hover {
                 color: $green;

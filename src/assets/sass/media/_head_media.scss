@@ -49,6 +49,7 @@
         .main-slider {
             &__item {
                 background-image: url('../img/head/slide-1/slide_bg-tablet.webp');
+                min-height: 460px;
 
                 &:nth-child(2) {
                     background-image: url('../img/head/slide-2/slide_bg-tablet.webp');

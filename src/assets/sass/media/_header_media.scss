@@ -1,9 +1,5 @@
 @media (min-width: 375px) {
     .header {
-        .mobile {
-            width: 50%;
-        }
-
         .logo {
             &-img {
                 min-width: 90px;
@@ -20,6 +16,10 @@
 
 @media (min-width: 425px) {
     .header {
+        .mobile {
+            width: 50%;
+        }
+        
         .logo {
             &-img {
                 width: 120px;
@@ -136,6 +136,7 @@
 
             &__icon {
                 margin-right: 15px;
+                font-size: 22px;
             }
         }
 
