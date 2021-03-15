@@ -90,3 +90,33 @@ $(".product-card__slider").on(
       .addClass("slick-active");
   }
 );
+
+
+$(document).ready(function() {
+  $(".accordion__button").on("click", function() {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this)
+        .siblings(".accordion__content")
+        .slideUp(300);
+      $(".accordion__button i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".accordion__button i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".accordion__button").removeClass("active");
+      $(this).addClass("active");
+      $(".accordion__content").slideUp(200);
+      $(this)
+        .siblings(".accordion__content")
+        .slideDown(200);
+    }
+  });
+});
+

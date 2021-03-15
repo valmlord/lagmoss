@@ -41,6 +41,7 @@
 
         &__img {
             width: 100%;
+            border-radius: 5px;
         }
 
         &__description {
@@ -65,12 +66,65 @@
         }
 
         &__price {
-            font-size: 25px;
+            font-size: 18px;
             line-height: 0.4;
             font-weight: 500;
 
             &-cursive {
                 font-size: 14px;
+            }
+        }
+    }
+
+    .accordion {
+        &-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        &__content {
+            border-bottom: 2px solid $green;
+            display:none;
+        }
+        &__set {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        &__button {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: $white;
+            background: $green;
+            text-align: center;
+            font-weight: 500;
+            border-radius: 5px;
+            -webkit-transition:all 0.2s linear;
+            -moz-transition:all 0.2s linear;
+            transition:all 0.2s linear;
+            &--active {
+                    background-color:#3399cc;
+                    color: #fff;
+            }
+        }
+        &__catalog {
+            &-list {
+                padding: 15px 0;
+                li {
+                padding: 5px 0;
+                }
+            }
+            &-link {
+                color: $black;
+                font-size: 16px;
+                font-weight: 500;
+                border-bottom: 2px solid $green;
             }
         }
     }
