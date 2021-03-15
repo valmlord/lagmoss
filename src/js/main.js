@@ -99,17 +99,17 @@ $(document).ready(function() {
       $(this)
         .siblings(".accordion__content")
         .slideUp(300);
-      $(".accordion__button i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
+      $(".accordion__button span")
+        .removeClass("icon-up_arrow")
+        .addClass("icon-down_arrow");
     } else {
-      $(".accordion__button i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
+      $(".accordion__button span")
+        .removeClass("icon-up_arrow")
+        .addClass("icon-down_arrow");
       $(this)
-        .find("i")
-        .removeClass("fa-plus")
-        .addClass("fa-minus");
+        .find("span")
+        .removeClass("icon-down_arrow")
+        .addClass("icon-up_arrow");
       $(".accordion__button").removeClass("active");
       $(this).addClass("active");
       $(".accordion__content").slideUp(200);

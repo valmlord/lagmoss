@@ -108,10 +108,10 @@
             -webkit-transition:all 0.2s linear;
             -moz-transition:all 0.2s linear;
             transition:all 0.2s linear;
-            &--active {
-                    background-color:#3399cc;
-                    color: #fff;
+            span {
+                margin-left: 15px;
             }
+
         }
         &__catalog {
             &-list {
