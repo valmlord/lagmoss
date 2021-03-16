@@ -90,6 +90,7 @@ $(".product-card__slider").on(
       .addClass("slick-active");
   }
 );
+$(".product-card__nav-thumbnails .slick-arrow").remove();
 
 
 $(document).ready(function() {

@@ -2465,6 +2465,7 @@ $(".product-card__slider").on("beforeChange", function (event, slick, currentSli
   $(".product-card__nav-thumbnails .slick-slide").removeClass("slick-active");
   $(".product-card__nav-thumbnails .slick-slide").eq(mySlideNumber).addClass("slick-active");
 });
+$(".product-card__nav-thumbnails .slick-arrow").remove();
 $(document).ready(function () {
   $(".accordion__button").on("click", function () {
     if ($(this).hasClass("active")) {
