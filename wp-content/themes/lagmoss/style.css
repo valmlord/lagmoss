@@ -1445,6 +1445,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
+  text-align: right;
 }
 .head .main-slider__subtitle {
   font-size: 14px;
@@ -2186,7 +2187,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 30px;
   }
   .popular__link {
     margin: 0 5px;
@@ -2209,6 +2210,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 15px;
   }
   .popular .big__card {
     width: 48.5%;
@@ -2308,6 +2310,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 30px;
   }
   .article__item {
     width: 32%;

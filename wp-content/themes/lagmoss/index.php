@@ -8,59 +8,111 @@
   <div class="container">
     <div class="main-slider">
     
-      <div class="main-slider__item">
-      <div class="main-slider__description">
-        <h1 class="main-slider__title">
-         Мебель в стиле лофт
-        </h1>
-        <h2 class="main-slider__subtitle">
-          Купите
-          <span class="main-slider__subtitle-cursive">ГОТОВУЮ</span>
-          модель или
-          <br />
-          <span class="main-slider__subtitle-cursive">ИЗГОТОВЬТЕ</span>
-          на заказ
-        </h2>
-        <a class="main-slider__link" href="catalog.html">Перейти в каталог</a>
-      </div>
-      </div>
+    <?php
+        // параметры по умолчанию
+        $posts = get_posts( array(
+          'numberposts' => 5,
+          'category'    => 0,
+          'orderby'     => 'slider',
+          'order'       => 'ASC',
+          'post_type'   => 'post',
+          'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+        ));
 
-      <div class="main-slider__item">
-        <div class="main-slider__description">
-          <h1 class="main-slider__title">
-            Мебель в стиле
-            <span class="main-slider__subtitle-cursive">LOFT</span>
-          </h1>
-          <h2 class="main-slider__subtitle">
-            Купите
-            <span class="main-slider__subtitle-cursive">ГОТОВУЮ</span>
-            модель или
-            <br />
-            <span class="main-slider__subtitle-cursive">ИЗГОТОВЬТЕ</span>
-            на заказ
-          </h2>
-          <a class="main-slider__link" href="catalog.html">Перейти в каталог</a>
+        foreach( $posts as $post ){
+          setup_postdata($post);
+        ?>
+
+        <div class="main-slider__item" style="background-image: url('<?php the_field('slider_bg'); ?>')">
+          <div class="main-slider__description">
+            <h1
+            style="
+              <?php
+                $field = get_field('title_color');
+
+                if ($field == 'black') {
+
+                  ?>
+                      color: #1b1b1b
+                  <?php
+
+                }
+
+                if ($field == 'brown') {
+
+                  ?>
+                      color: #ddd4b7
+                  <?php
+
+                }
+
+                if ($field == 'green') {
+
+                  ?>
+                      color: #006939
+                  <?php
+
+                }
+
+              ?>" 
+            class="main-slider__title" >
+            <?php
+              the_title();
+            ?>
+            </h1>
+            <h2 class="main-slider__subtitle"
+            
+            style="
+              <?php
+                $field = get_field('subtitle_color');
+
+                if ($field == 'black') {
+
+                  ?>
+                      color: #1b1b1b
+                  <?php
+
+                }
+
+                if ($field == 'brown') {
+
+                  ?>
+                      color: #ddd4b7
+                  <?php
+
+                }
+
+                if ($field == 'green') {
+
+                  ?>
+                      color: #006939
+                  <?php
+
+                }
+
+              ?>"
+            >
+                <?php the_field('slider_subtitle');?>
+            </h2>
+
+            <?php
+                $field = get_field('slider_btn');
+
+                if ($field == 'on') {
+                  ?>
+                  <a class="main-slider__link" href="<?php the_field('slider_link');?>">Подробнее</a>
+                  <?php
+                }
+              ?> 
+          </div>
         </div>
-      </div>
 
-      <div class="main-slider__item">
-        <div class="main-slider__description">
-          <h1 class="main-slider__title">
-            Мебель в стиле
-            <span class="main-slider__subtitle-cursive">LOFT</span>
-          </h1>
-          <h2 class="main-slider__subtitle">
-            Купите
-            <span class="main-slider__subtitle-cursive">ГОТОВУЮ</span>
-            модель или
-            <br />
-            <span class="main-slider__subtitle-cursive">ИЗГОТОВЬТЕ</span>
-            на заказ
-          </h2>
-          <a class="main-slider__link" href="catalog.html">Перейти в каталог</a>
-        </div>
-      </div>
+        <?php
+      }
 
+      wp_reset_postdata(); // сброс
+
+      ?>
     </div>
   </div>
 
@@ -78,16 +130,20 @@
     <div class="categories__grid categories__grid--first" data-aos="zoom-in">
       <a
         class="categories__link categories__link--chest"
-        href="javascript:void(0);">
+        href="<?php the_field('first_category_img'); ?>"
+        style="background-image: url('<?php the_field('first_category_img'); ?>')"
+      >
         <span class="categories__name">
-        <?php
-          the_field('first_category_name');
-        ?>
+          <?php
+            the_field('first_category_name');
+          ?>
         </span>
       </a>
       <a
         class="categories__link categories__link--consoles"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('second_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('second_category_name');
@@ -96,7 +152,9 @@
       </a>
       <a
         class="categories__link categories__link--chairs"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('third_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('third_category_name');
@@ -105,7 +163,9 @@
       </a>
       <a
         class="categories__link categories__link--racks"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('fourth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('fourth_category_name');
@@ -114,7 +174,9 @@
       </a>
       <a
         class="categories__link categories__link--coffee"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('fifth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('fifth_category_name');
@@ -125,7 +187,9 @@
     <div class="categories__grid categories__grid--second" data-aos="zoom-in">
       <a
         class="categories__link categories__link--seats"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('seven_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('seven_category_name');
@@ -134,7 +198,9 @@
       </a>
       <a
         class="categories__link categories__link--tv-table"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('eighth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('eighth_category_name');
@@ -143,7 +209,9 @@
       </a>
       <a
         class="categories__link categories__link--shelfs"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('nine_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('nine_category_name');
@@ -152,7 +220,9 @@
       </a>
       <a
         class="categories__link categories__link--wardrobe"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('ten_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('ten_category_name');
@@ -161,7 +231,9 @@
       </a>
       <a
         class="categories__link categories__link--dinner"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('six_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('six_category_name');
@@ -172,7 +244,9 @@
     <div class="categories__grid categories__grid--third" data-aos="zoom-in">
       <a
         class="categories__link categories__link--hangers"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('eleven_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('eleven_category_name');
@@ -181,7 +255,9 @@
       </a>
       <a
         class="categories__link categories__link--shoe-cabinets"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('twelve_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('twelve_category_name');
@@ -190,7 +266,9 @@
       </a>
       <a
         class="categories__link categories__link--bar-chairs"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('thirteenth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('thirteenth_category_name');
@@ -199,7 +277,9 @@
       </a>
       <a
         class="categories__link categories__link--table"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('fourteenth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('fourteenth_category_name');
@@ -208,7 +288,9 @@
       </a>
       <a
         class="categories__link categories__link--desk"
-        href="javascript:void(0);">
+        href="javascript:void(0);"
+        style="background-image: url('<?php the_field('fifteenth_category_img'); ?>')"
+        >
         <span class="categories__name">
         <?php
           the_field('fifteenth_category_name');
@@ -229,13 +311,13 @@
     ?>
     </h3>
     <div class="popular__links">
-      <a class="popular__link" href="javascript:void(0);">В КАТАЛОГ</a>
-      <a class="popular__link" href="javascript:void(0);">Столы</a>
-      <a class="popular__link" href="javascript:void(0);">Консоли</a>
-      <a class="popular__link" href="javascript:void(0);">Кресла</a>
-      <a class="popular__link" href="javascript:void(0);">Комоды</a>
-      <a class="popular__link" href="javascript:void(0);">Стеллажи</a>
-      <a class="popular__link" href="javascript:void(0);">Стулья</a>
+      <a class="popular__link" href="<?php the_field('popular_link_1');?>"><?php the_field('popular_link_name_1');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_2');?>"><?php the_field('popular_link_name_2');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_3');?>"><?php the_field('popular_link_name_3');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_4');?>"><?php the_field('popular_link_name_4');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_5');?>"><?php the_field('popular_link_name_5');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_6');?>"><?php the_field('popular_link_name_6');?></a>
+      <a class="popular__link" href="<?php the_field('popular_link_7');?>"><?php the_field('popular_link_name_7');?></a>
     </div>
     <div class="popular__products products">
       <div class="products__big big">
@@ -368,6 +450,7 @@
     ?>
     </h3>
     <div class="article__items">
+
       <a class="article__item hvr-grow" href="#">
         <img
           class="article__image"
@@ -387,6 +470,7 @@
           </p>
         </div>
       </a>
+
       <a class="article__item hvr-grow" href="#">
         <img
           class="article__image"
@@ -406,6 +490,7 @@
           </p>
         </div>
       </a>
+
       <a class="article__item hvr-grow" href="#">
         <img
           class="article__image"
@@ -425,6 +510,7 @@
           </p>
         </div>
       </a>
+
     </div>
   </div>
 </section>
