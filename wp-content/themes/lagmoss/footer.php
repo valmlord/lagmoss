@@ -3,8 +3,21 @@
   <footer class="footer">
     <div class="container">
       <div class="footer footer-inner">
-        <nav>
-          <ul class="footer__menu">
+        <nav class="footer__list">
+
+        <?php
+              wp_nav_menu( [
+                'menu'            => 'footer_menu', 
+                'container'       => false, 
+                'menu_class'      => 'footer__list', 
+                'echo'            => true,
+                'fallback_cb'     => 'wp_page_menu',
+                'items_wrap'      => '<ul class="footer__list">%3$s</ul>',
+                'depth'           => 1
+              ] );
+          ?> 
+
+          <!-- <ul class="footer__menu">
             <li>
               <a class="footer__link" href="javascript:void(0);">Акции</a>
             </li>
@@ -26,7 +39,7 @@
             <li>
               <a class="footer__link" href="javascript:void(0);">Вопрос - Ответ</a>
             </li>
-          </ul>
+          </ul> -->
         </nav>
 
         <div class="footer-categories">

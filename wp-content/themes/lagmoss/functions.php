@@ -11,5 +11,27 @@ function lagmoss_scripts() {
 }
 
 add_theme_support( 'custom-logo' );
+add_theme_support( 'menus' );
+
+add_filter('nav_menu_link_attributes', 'filter_nav_menu_link_attributes', 10, 3);
+function filter_nav_menu_link_attributes($atts, $item, $args) {
+    if ($args->menu === 'top_menu') {
+        $atts['class'] = 'top__link';
+    };
+
+    if ($args->menu === 'bottom_menu') {
+        $atts['class'] = 'bottom__link';
+    };
+
+    if ($args->menu === 'mobile_menu') {
+        $atts['class'] = 'mobile__link';
+    };
+
+    if ($args->menu === 'footer_menu') {
+        $atts['class'] = 'footer__link';
+    };
+
+    return $atts;
+}
 
 ?>

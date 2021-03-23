@@ -31,23 +31,19 @@
             </div>
           </div>
           <nav class="menu__top top">
-            <ul class="top__list">
-              <li class="top__item">
-                <a class="top__link" href="javascript:void(0)">ДОСТАВКА И ОПЛАТА</a>
-              </li>
-              <li class="top__item">
-                <a class="top__link" href="catalog.html">КАТАЛОГ</a>
-              </li>
-              <li class="top__item">
-                <a class="top__link" href="javascript:void(0)">НОВОСТИ</a>
-              </li>
-              <li class="top__item">
-                <a class="top__link" href="javascript:void(0)">ПОРТФОЛИО</a>
-              </li>
-              <li class="top__item">
-                <a class="top__link" href="javascript:void(0)">О КОМПАНИИ</a>
-              </li>
-            </ul>
+
+          <?php
+              wp_nav_menu( [
+                'menu'            => 'top_menu', 
+                'container'       => false, 
+                'menu_class'      => 'top__list', 
+                'echo'            => true,
+                'fallback_cb'     => 'wp_page_menu',
+                'items_wrap'      => '<ul class="top__list">%3$s</ul>',
+                'depth'           => 1
+              ] );
+          ?> 
+          
           </nav>
         </div>
       </div>
@@ -69,52 +65,38 @@
             <span class="phone__workhours"><?php the_field('work_hours', 2);?></span>
           </div>
           <nav class="menu__bottom bottom">
-            <ul class="bottom__list">
-              <li class="bottom__item">
-                <a class="bottom__link" href="javascript:void(0)">СИДЕНЬЯ</a>
-              </li>
-              <li class="bottom__item">
-                <a class="bottom__link" href="javascript:void(0)">СТОЛЫ</a>
-              </li>
-              <li class="bottom__item">
-                <a class="bottom__link" href="javascript:void(0)">ХРАНЕНИЕ</a>
-              </li>
-              <li class="bottom__item">
-                <a class="bottom__link" href="javascript:void(0)">АКСЕССУАРЫ</a>
-              </li>
-            </ul>
+
+          <?php
+              wp_nav_menu( [
+                'menu'            => 'bottom_menu', 
+                'container'       => false, 
+                'menu_class'      => 'bottom__list', 
+                'echo'            => true,
+                'fallback_cb'     => 'wp_page_menu',
+                'items_wrap'      => '<ul class="bottom__list">%3$s</ul>',
+                'depth'           => 1
+              ] );
+          ?> 
+
           </nav>
           <nav class="menu__mobile mobile">
-            <ul class="mobile__list">
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">СИДЕНЬЯ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">СТОЛЫ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">ХРАНЕНИЕ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">КАТАЛОГ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">НОВОСТИ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">ПОРТФОЛИО</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">О КОМПАНИИ</a>
-              </li>
-              <li class="mobile__item">
-                <a class="mobile__link" href="javascript:void(0)">ДОСТАВКА И ОПЛАТА</a>
-              </li>
-            </ul>
-            <div class="phone">
-              <a class="phone__link" href="tel:<?php the_field('intercity_phone', 2); ?>"><?php the_field('intercity_phone', 2); ?></a>
-              <span class="phone__workhours">ежедневно с 9:00 до 21:00</span>
-            </div>
+
+          <?php
+              wp_nav_menu( [
+                'menu'            => 'mobile_menu', 
+                'container'       => false, 
+                'menu_class'      => 'mobile__list', 
+                'echo'            => true,
+                'fallback_cb'     => 'wp_page_menu',
+                'items_wrap'      => '<ul class="mobile__list">%3$s</ul>',
+                'depth'           => 1
+              ] );
+          ?> 
+
+          <div class="phone">
+            <a class="phone__link" href="tel:<?php the_field('intercity_phone', 2); ?>"><?php the_field('intercity_phone', 2); ?></a>
+            <span class="phone__workhours">ежедневно с 9:00 до 21:00</span>
+          </div>
             <div class="social">
               <div class="social__icons">
                 <a class="social__icon" href="<?php the_field('whatsapp_link', 2); ?>"><span class="icon-whatsapp"></span></a>

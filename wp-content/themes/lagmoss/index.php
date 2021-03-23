@@ -11,9 +11,9 @@
     <?php
         // параметры по умолчанию
         $posts = get_posts( array(
-          'numberposts' => 5,
-          'category'    => 0,
-          'orderby'     => 'slider',
+          'numberposts' => 3,
+          'category_name' => 'slider',
+          'orderby'     => 'date',
           'order'       => 'ASC',
           'post_type'   => 'post',
           'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
@@ -115,7 +115,6 @@
       ?>
     </div>
   </div>
-
 </section>
 
 <!-- CATEGORIES -->
@@ -451,65 +450,47 @@
     </h3>
     <div class="article__items">
 
-      <a class="article__item hvr-grow" href="#">
-        <img
-          class="article__image"
-          src="<?php the_field('article_first_img'); ?>"
-          alt="картинка статьи"
-        />
-        <div class="article__description">
-          <h4 class="article__title">
-          <?php
-            the_field('article_first_title');
-          ?>
-          </h4>
-          <p class="article__info">
-          <?php 
-            the_field('article_first_description');
-          ?>
-          </p>
-        </div>
-      </a>
+    <?php
+        // параметры по умолчанию
+        $posts = get_posts( array(
+          'numberposts' => 3,
+          'category_name'    => 'article',
+          'orderby'     => 'date',
+          'order'       => 'ASC',
+          'post_type'   => 'post',
+          'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+        ));
 
-      <a class="article__item hvr-grow" href="#">
-        <img
-          class="article__image"
-          src="<?php the_field('article_second_img'); ?>"
-          alt="картинка статьи"
-        />
-        <div class="article__description">
-          <h4 class="article__title">
-          <?php
-            the_field('article_second_title');
-          ?>
-          </h4>
-          <p class="article__info">
-          <?php 
-            the_field('article_second_description');
-          ?>
-          </p>
-        </div>
-      </a>
+        foreach( $posts as $post ){
+          setup_postdata($post);
+        ?>
 
-      <a class="article__item hvr-grow" href="#">
-        <img
-          class="article__image"
-          src="<?php the_field('article_third_img'); ?>"
-          alt="картинка статьи"
-        />
-        <div class="article__description">
-          <h4 class="article__title">
-          <?php
-            the_field('article_third_title');
-          ?>
-          </h4>
-          <p class="article__info">
-          <?php 
-            the_field('article_third_description');
-          ?>
-          </p>
-        </div>
-      </a>
+        <a class="article__item hvr-grow" href="#">
+          <img
+            class="article__image"
+            src="<?php the_field('article_img'); ?>"
+            alt="картинка статьи"
+          />
+          <div class="article__description">
+            <h4 class="article__title">
+              <?php
+                the_title();
+              ?>
+            </h4>
+            <p class="article__info">
+            <?php 
+              the_field('article_description');
+            ?>
+            </p>
+          </div>
+        </a>
+
+        <?php
+      }
+
+      wp_reset_postdata(); // сброс
+
+      ?>
 
     </div>
   </div>

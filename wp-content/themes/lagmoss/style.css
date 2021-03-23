@@ -2323,14 +2323,15 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
   .article__image {
     width: 100%;
+    border-radius: 5px;
   }
   .article__description {
     width: 100%;
+    margin-top: 15px;
   }
   .article__title {
     font-size: 16px;
     margin-top: 15px;
-    min-height: 40px;
   }
   .article__info {
     font-size: 14px;
@@ -2831,8 +2832,19 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   color: #1b1b1b;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 2px solid #006939;
 }
+
+.catalog-link:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #006939;
+  display: block;
+}
+
 .catalog-item {
   padding: 15px 0;
 }
