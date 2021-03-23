@@ -44,13 +44,15 @@ window.addEventListener("DOMContentLoaded", () => {
 
 $(".main-slider").slick({
   autoplay: true,
-  dots: true,
   infinite: true,
+  dots: true,
   speed: 500,
   slidesToShow: 1,
+  slidesToScroll: 1,
   adaptiveHeight: true,
   arrow: false,
   fade: true,
+  dotsClass: 'dots-style',
 });
 $(".main-slider .slick-arrow").remove();
 
