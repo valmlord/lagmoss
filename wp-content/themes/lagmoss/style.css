@@ -2834,6 +2834,8 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   font-weight: 500;
 }
 
+
+
 .catalog-link:after {
   content: "";
   position: absolute;
@@ -3012,6 +3014,31 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 .hvr-grow:hover {
   transform: scale(1.03);
 }
+
+.dots-style {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.dots-style button {
+  top: -350px;
+  background: #ddd4b7;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  height: 15px;
+  width: 15px;
+  margin-left: 15px;
+  outline: none;
+}
+
+.dots-style li[class="slick-active"] button {
+  background: #006939;
+}
+
 * {
   font-family: Geometria, sans-serif;
   margin: 0;

@@ -2430,13 +2430,15 @@ window.addEventListener("DOMContentLoaded", function () {
 
 $(".main-slider").slick({
   autoplay: true,
-  dots: true,
   infinite: true,
+  dots: true,
   speed: 500,
   slidesToShow: 1,
+  slidesToScroll: 1,
   adaptiveHeight: true,
   arrow: false,
-  fade: true
+  fade: true,
+  dotsClass: 'dots-style'
 });
 $(".main-slider .slick-arrow").remove(); // PRODUCT CARD SLIDER
 
