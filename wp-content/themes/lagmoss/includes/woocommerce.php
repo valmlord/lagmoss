@@ -171,7 +171,7 @@ if ( ! function_exists( 'lagmoss_woocommerce_cart_link_fragment' ) ) {
 }
 add_filter( 'woocommerce_add_to_cart_fragments', 'lagmoss_woocommerce_cart_link_fragment' );
 
-if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
+  if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
 	/**
 	 * Cart Link.
 	 *
@@ -193,7 +193,7 @@ if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
 		</a>
 		<?php
 	}
-}
+} 
 
 if ( ! function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
 	/**

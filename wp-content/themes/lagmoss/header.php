@@ -106,11 +106,11 @@
               </div>
             </div>
           </nav>
-          <a class="cart" href="cart">
+          <!-- <a class="cart" href="#"> -->
           <?php lagmoss_woocommerce_cart_link();?>
-          <span class="icon-cart"></span>
-            <p class="cart-number">12</p>
-          </a>
+          <!-- <span class="icon-cart"></span>
+            <p class="cart-number">12</p> -->
+          <!-- </a> -->
           <div class="hamburger">
             <span></span>
             <span></span>

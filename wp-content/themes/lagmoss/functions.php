@@ -82,7 +82,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Load WooCommerce compatibility file.
  */
 if ( class_exists( 'WooCommerce' ) ) {
-	require get_template_directory() . '/includes/woocommerce.php';
+	//require get_template_directory() . '/includes/woocommerce.php';
 	require get_template_directory() . '/woocommerce/includes/wc_functions.php';
 	require get_template_directory() . '/woocommerce/includes/wc_functions_remove.php';
     require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
@@ -92,6 +92,4 @@ add_filter ('woocommerce_product_single_add_to_cart_text', 'QL_customize_add_to_
 function QL_customize_add_to_cart_button_woocommerce () {
 return __ ('Купить этот товар', 'woocommerce');
 }
-
-
 ?>

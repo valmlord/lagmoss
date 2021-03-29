@@ -1,15 +1,4 @@
 <?php
-/**
- * Sample implementation of the WooCommerce Mini Cart.
- *
- * You can add the WooCommerce Mini Cart to header.php like so ...
- *
-	<?php
-		if ( function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
-			lagmoss_woocommerce_header_cart();
-		}
-	?>
- */
 
 if ( ! function_exists( 'lagmoss_woocommerce_cart_link_fragment' ) ) {
 	/**
@@ -20,15 +9,18 @@ if ( ! function_exists( 'lagmoss_woocommerce_cart_link_fragment' ) ) {
 	 * @param array $fragments Fragments to refresh via AJAX.
 	 * @return array Fragments to refresh via AJAX.
 	 */
+	add_filter( 'woocommerce_add_to_cart_fragments', 'lagmoss_woocommerce_cart_link_fragment' );
 	function lagmoss_woocommerce_cart_link_fragment( $fragments ) {
 		ob_start();
 		lagmoss_woocommerce_cart_link();
 		$fragments['a.cart-contents'] = ob_get_clean();
-
+		
 		return $fragments;
 	}
 }
-add_filter( 'woocommerce_add_to_cart_fragments', 'lagmoss_woocommerce_cart_link_fragment' );
+
+// remove_action( 'lagmoss_woocommerce_cart_link', 10 );
+// add_action( 'lagmoss_woocommerce_cart_link',  10 );
 
 if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
 	/**
@@ -40,7 +32,7 @@ if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
 	 */
 	function lagmoss_woocommerce_cart_link() {
 		?>
-		<a class="cart-contents" href="<?php echo esc_url( wc_get_cart_url() ); ?>" title="<?php esc_attr_e( 'View your shopping cart', 'lagmoss' ); ?>">
+		<a class="cart-contents cart" href="<?php echo esc_url( wc_get_cart_url() ); ?>" title="<?php esc_attr_e( 'Показывает содержимое корзины', 'lagmoss' ); ?>">
 			<?php
 			$item_count_text = sprintf(
 				/* translators: number of items in the mini cart. */
@@ -48,11 +40,12 @@ if ( ! function_exists( 'lagmoss_woocommerce_cart_link' ) ) {
 				WC()->cart->get_cart_contents_count()
 			);
 			?>
-			<span class="amount"><?php echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?></span> <span class="count"><?php echo esc_html( $item_count_text ); ?></span>
+			<span class="icon-cart"></span>
+			<span class="count cart-number"><?php echo esc_html( $item_count_text ); ?></span>
 		</a>
 		<?php
 	}
-}
+} 
 
 if ( ! function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
 	/**
@@ -76,7 +69,7 @@ if ( ! function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
 				$instance = array(
 					'title' => '',
 				);
-
+				
 				the_widget( 'WC_Widget_Cart', $instance );
 				?>
 			</li>
@@ -84,3 +77,5 @@ if ( ! function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
 		<?php
 	}
 }
+
+?>
