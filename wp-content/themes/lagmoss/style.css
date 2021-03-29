@@ -1,5 +1,10 @@
 /*
 Theme Name: lagmoss
+Theme URI: http://www.lagmoss.ru/
+Author: valmlord
+Author URI: http://www.korshukovstepan.ru/
+Description: Description
+Version: 1.0.0
 */
 @font-face {
   font-family: Geometria;
@@ -3077,3 +3082,6 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     max-width: 1170px;
   }
 }
+
+
+

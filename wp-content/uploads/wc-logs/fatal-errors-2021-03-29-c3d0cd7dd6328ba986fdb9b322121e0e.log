@@ -1,0 +1,32 @@
+2021-03-29T06:13:10+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-cart.php на строке 74
+
+2021-03-29T06:13:11+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-cart.php на строке 74
+
+2021-03-29T06:13:42+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/wc-functions.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 86
+
+2021-03-29T06:13:43+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/wc-functions.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 86
+
+2021-03-29T06:15:01+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-cart.php на строке 74
+
+2021-03-29T06:15:02+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-cart.php на строке 74
+
+2021-03-29T06:16:13+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+
+2021-03-29T06:16:13+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+
+2021-03-29T06:17:07+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+
+2021-03-29T06:17:08+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+
+2021-03-29T06:17:43+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/includes/wc_functions_cart.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 88
+
+2021-03-29T06:17:44+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/includes/wc_functions_cart.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 88
+
+2021-03-29T06:18:41+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 73
+
+2021-03-29T06:18:42+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 73
+
+2021-03-29T06:19:48+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+
+2021-03-29T06:19:48+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 74
+

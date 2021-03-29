@@ -1,3 +1,7 @@
+<!-- 
+Template Name: Главная страница
+-->
+
 <?php
   get_header();
 ?>

@@ -3,7 +3,7 @@ add_action('wp_enqueue_scripts', 'lagmoss_styles');
 add_action('wp_enqueue_scripts', 'lagmoss_scripts');
 
 function lagmoss_styles() {
-    wp_enqueue_style( 'lagmoss-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'lagmoss-style', get_stylesheet_uri()  );
 }
 
 function lagmoss_scripts() {
@@ -33,5 +33,65 @@ function filter_nav_menu_link_attributes($atts, $item, $args) {
 
     return $atts;
 }
+
+/*
+ * Подключение настроек темы
+ */
+require get_template_directory() . '/includes/theme-settings.php';
+/*
+ * Подключение области виджетов
+ */
+require get_template_directory() . '/includes/widget-areas.php';
+/*
+ * Подключение скриптов и стилей
+ */
+require get_template_directory() . '/includes/enqueue-script-style.php';
+/*
+ * Вспомогательные функции
+ */
+require get_template_directory() . '/includes/helpers.php';
+
+/**
+ * Implement the Custom Header feature.
+ */
+require get_template_directory() . '/includes/custom-header.php';
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/includes/template-tags.php';
+
+/**
+ * Functions which enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/includes/template-functions.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/includes/customizer.php';
+
+/**
+ * Load Jetpack compatibility file.
+ */
+if ( defined( 'JETPACK__VERSION' ) ) {
+	require get_template_directory() . '/includes/jetpack.php';
+}
+
+/**
+ * Load WooCommerce compatibility file.
+ */
+if ( class_exists( 'WooCommerce' ) ) {
+	require get_template_directory() . '/includes/woocommerce.php';
+	require get_template_directory() . '/woocommerce/includes/wc_functions.php';
+	require get_template_directory() . '/woocommerce/includes/wc_functions_remove.php';
+    require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
+}
+
+add_filter ('woocommerce_product_single_add_to_cart_text', 'QL_customize_add_to_cart_button_woocommerce', 'btn-order');
+function QL_customize_add_to_cart_button_woocommerce () {
+return __ ('Купить этот товар', 'woocommerce');
+}
+
 
 ?>

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-18 18:58:04+0000\n"
+"PO-Revision-Date: 2021-03-27 16:53:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -228,11 +228,11 @@ msgstr "Оставьте ★★★★★ обзор плагина на WordPres
 msgid "Your Appreciation"
 msgstr "Ваша оценка"
 
-#: src/php/Settings/Converter.php:170 src/php/Settings/Tables.php:202
+#: src/php/Settings/Tables.php:202 src/php/Settings/Converter.php:170
 msgid "Cyr To Lat Plugin Options"
 msgstr "Опции плагина Cyr To Lat"
 
-#: src/php/Settings/Converter.php:78 src/php/Settings/Tables.php:87
+#: src/php/Settings/Tables.php:87 src/php/Settings/Converter.php:78
 msgid "Cyr To Lat"
 msgstr "Cyr To Lat"
 
@@ -285,8 +285,8 @@ msgid "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
 msgstr "Сергей Бирюков, Михаил Кобзарёв, Игорь Гергель"
 
 #. Description of the plugin
-msgid "Converts Cyrillic characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
-msgstr "Преобразует кириллические символы в ярлыках записей, страниц и рубрик в латинские. Полезно для создания человекопонятных URL (ЧПУ). Основано на оригинальном плагине Rus-To-Lat от Антона Скоробогатова."
+msgid "Convert Non-Latin characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
+msgstr "Преобразует не-латинские символы в ярлыках записей, страниц и рубрик в латинские. Полезно для создания человекопонятных URL (ЧПУ). Основано на оригинальном плагине Rus-To-Lat от Антона Скоробогатова."
 
 #. Plugin URI of the plugin
 msgid "https://wordpress.org/plugins/cyr2lat/"
