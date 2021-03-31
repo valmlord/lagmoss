@@ -1,0 +1,56 @@
+2021-03-31T08:16:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php on line 11 and at least 2 expected in C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php:590
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php(11): remove_action('woocommerce_bef...')
+#1 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php(87): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Lagmoss\wp-settings.php(528): include('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Lagmoss\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Lagmoss\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php на строке 590
+
+2021-03-31T08:16:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php on line 11 and at least 2 expected in C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php:590
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php(11): remove_action('woocommerce_bef...')
+#1 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php(87): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Lagmoss\wp-settings.php(528): include('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Lagmoss\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Lagmoss\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php на строке 590
+
+2021-03-31T16:19:30+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/breadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:19:30+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/breadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:19:58+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmossbreadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:19:59+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmossbreadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:20:32+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmosswoocommerce/breadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:20:33+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmosswoocommerce/breadcrumb.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 74
+
+2021-03-31T16:32:06+00:00 CRITICAL Cannot redeclare woocommerce_breadcrumb() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2213) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:32:08+00:00 CRITICAL Cannot redeclare woocommerce_breadcrumb() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2213) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:33:36+00:00 CRITICAL Cannot redeclare woocommerce_breadcrumb() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2213) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:34:01+00:00 CRITICAL Cannot redeclare woocommerce_breadcrumb() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2213) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:34:32+00:00 CRITICAL syntax error, unexpected ';', expecting '{' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:34:32+00:00 CRITICAL syntax error, unexpected ';', expecting '{' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:34:50+00:00 CRITICAL syntax error, unexpected '?>', expecting '{' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 18
+
+2021-03-31T16:34:51+00:00 CRITICAL syntax error, unexpected '?>', expecting '{' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 18
+
+2021-03-31T16:52:44+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T16:52:44+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+

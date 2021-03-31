@@ -118,3 +118,37 @@
 
 2021-03-29T11:15:00+00:00 CRITICAL Cannot redeclare lagmoss_woocommerce_cart_link() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php:11) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_cart.php на строке 38
 
+2021-03-29T19:32:49+00:00 CRITICAL syntax error, unexpected '?>' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-29T19:32:50+00:00 CRITICAL syntax error, unexpected '?>' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-29T19:33:22+00:00 CRITICAL syntax error, unexpected '?>' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-29T19:33:22+00:00 CRITICAL syntax error, unexpected '?>' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-29T21:01:58+00:00 CRITICAL Cannot redeclare lagmoss_wrapper_product_image_start() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php:44) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 63
+
+2021-03-29T21:01:59+00:00 CRITICAL Cannot redeclare lagmoss_wrapper_product_image_start() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php:44) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 63
+
+2021-03-29T21:09:39+00:00 CRITICAL Uncaught Error: Call to undefined function remove_all_filter() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php:10
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php(87): require()
+#1 C:\OpenServer\domains\Lagmoss\wp-settings.php(528): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Lagmoss\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Lagmoss\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php на строке 10
+
+2021-03-29T21:09:40+00:00 CRITICAL Uncaught Error: Call to undefined function remove_all_filter() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php:10
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php(87): require()
+#1 C:\OpenServer\domains\Lagmoss\wp-settings.php(528): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Lagmoss\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Lagmoss\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions_remove.php на строке 10
+

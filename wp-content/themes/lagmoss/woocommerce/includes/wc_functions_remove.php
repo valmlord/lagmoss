@@ -6,10 +6,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
+//remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
 
-/* add_filter( 'woocommerce_enqueue_styles', 'lagmoss_dequeue_styles', 1 );
-function lagmoss_dequeue_styles( $enqueue_styles ) {
-	
+
+remove_all_filters( 'woocommerce_after_single_product_summary');
+
+
+  /* 
+	add_filter( 'woocommerce_enqueue_styles', 'lagmoss_dequeue_styles', 1 );
+	function lagmoss_dequeue_styles( $enqueue_styles ) {
 	
 	unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
 	unset( $enqueue_styles['woocommerce-layout'] );
@@ -17,5 +22,6 @@ function lagmoss_dequeue_styles( $enqueue_styles ) {
 	//$enqueue_styles['woocommerce-general']['deps'] = array('lagmoss-style');
 	//get_vd($enqueue_styles);
 	return $enqueue_styles;
-} */
+	} 
+  */
 ?>

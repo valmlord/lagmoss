@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-27 16:53:15+0000\n"
+"PO-Revision-Date: 2021-03-30 23:21:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr "После конвертации вложений, пожалуйста
 msgid ""
 "Also, you have to make a copy of your media files if the attachment post type is selected for\n"
 "\t\t\t\tconversion."
-msgstr "Также, вам надо сделать копию ваших медиафайлов, если тип поста attachment был выбран для конвертации. "
+msgstr "Также, вам надо сделать копию ваших медиафайлов, если тип записи attachment был выбран для конвертации. "
 
 #: src/php/Settings/Converter.php:209
 msgid "Existing <strong>product attribute</strong> slugs will <strong>NOT</strong> be converted."
@@ -35,19 +35,19 @@ msgstr "Опции конвертации существующих слагов"
 
 #: src/php/Settings/Converter.php:139
 msgid "Post statuses included in the conversion."
-msgstr "Статусы постов, включаемых в конвертацию."
+msgstr "Статусы записей, включаемых в конвертацию."
 
 #: src/php/Settings/Converter.php:135
 msgid "Post Statuses"
-msgstr "Статусы постов"
+msgstr "Статусы записей"
 
 #: src/php/Settings/Converter.php:117
 msgid "Post types included in the conversion."
-msgstr "Типы постов, включаемые в конвертацию."
+msgstr "Типы записей, включаемые в конвертацию."
 
 #: src/php/Settings/Converter.php:113
 msgid "Post Types"
-msgstr "Типы постов"
+msgstr "Типы записей"
 
 #: src/php/Settings/Converter.php:69
 msgid "Converter"

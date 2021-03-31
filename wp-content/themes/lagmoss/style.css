@@ -2781,6 +2781,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
 }
 @media (min-width: 1024px) {
+
   .product-card__options {
     height: 300px;
   }
