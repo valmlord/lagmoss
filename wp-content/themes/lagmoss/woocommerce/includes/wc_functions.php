@@ -5,7 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20 );
-
 add_action( 'woocommerce_before_main_content', 'lagmoss_add_breadcrumbs', 20 );
 function lagmoss_add_breadcrumbs(){
 ?>
@@ -17,7 +16,6 @@ function lagmoss_add_breadcrumbs(){
 			'delimiter' => '<span class="icon-dashicon">', 
 	        );
             ?>
-
             <?php woocommerce_breadcrumb($args)?>
             </div>
         </div>

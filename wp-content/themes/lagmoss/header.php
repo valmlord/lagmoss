@@ -70,7 +70,7 @@
               wp_nav_menu( [
                 'menu'            => 'bottom_menu', 
                 'container'       => false, 
-                'menu_class'      => 'bottom__list', 
+                'menu_class'      => 'menu__bottom bottom', 
                 'echo'            => true,
                 'fallback_cb'     => 'wp_page_menu',
                 'items_wrap'      => '<ul class="bottom__list">%3$s</ul>',
@@ -80,19 +80,17 @@
 
           </nav>
           <nav class="menu__mobile mobile">
-
           <?php
               wp_nav_menu( [
                 'menu'            => 'mobile_menu', 
                 'container'       => false, 
-                'menu_class'      => 'mobile__list', 
+                'menu_class'      => 'menu__mobile mobile', 
                 'echo'            => true,
                 'fallback_cb'     => 'wp_page_menu',
                 'items_wrap'      => '<ul class="mobile__list">%3$s</ul>',
                 'depth'           => 1
               ] );
           ?> 
-
           <div class="phone">
             <a class="phone__link" href="tel:<?php the_field('intercity_phone', 2); ?>"><?php the_field('intercity_phone', 2); ?></a>
             <span class="phone__workhours">ежедневно с 9:00 до 21:00</span>
@@ -106,11 +104,7 @@
               </div>
             </div>
           </nav>
-          <!-- <a class="cart" href="#"> -->
           <?php lagmoss_woocommerce_cart_link();?>
-          <!-- <span class="icon-cart"></span>
-            <p class="cart-number">12</p> -->
-          <!-- </a> -->
           <div class="hamburger">
             <span></span>
             <span></span>

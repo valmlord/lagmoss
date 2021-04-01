@@ -33,7 +33,6 @@ function filter_nav_menu_link_attributes($atts, $item, $args) {
 
     return $atts;
 }
-
 /*
  * Подключение настроек темы
  */
@@ -50,7 +49,6 @@ require get_template_directory() . '/includes/enqueue-script-style.php';
  * Вспомогательные функции
  */
 require get_template_directory() . '/includes/helpers.php';
-
 /**
  * Implement the Custom Header feature.
  */
@@ -86,10 +84,6 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/woocommerce/includes/wc_functions.php';
 	require get_template_directory() . '/woocommerce/includes/wc_functions_remove.php';
     require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
-}
-
-add_filter ('woocommerce_product_single_add_to_cart_text', 'QL_customize_add_to_cart_button_woocommerce', 'btn-order');
-function QL_customize_add_to_cart_button_woocommerce () {
-return __ ('Купить этот товар', 'woocommerce');
+    require get_template_directory() . '/woocommerce/includes/wc_functions_archive.php';
 }
 ?>

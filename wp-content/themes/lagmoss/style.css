@@ -1143,6 +1143,15 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   z-index: 2;
   opacity: 0.9;
 }
+
+.mobile__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  margin-top: 30px;
+}
+
 .header .mobile--active {
   left: 0;
 }
@@ -1166,7 +1175,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 .header .mobile .phone__link {
   color: #006939;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
 }
 .header .mobile .phone__workhours {
@@ -1490,11 +1499,23 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 }
 .head .main-slider .slick-dots {
   position: absolute;
-  top: 33%;
+  top: 35%;
   left: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.dots-style button {
+  top: -145px;
+  background: #ddd4b7;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  height: 15px;
+  width: 15px;
+  margin-left: 15px;
+  outline: none;
 }
 .head .main-slider .slick-dots button {
   font-size: 0;
@@ -1534,9 +1555,13 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     font-size: 16px;
   }
   .head .main-slider .slick-dots {
-    top: 35%;
+    top: 40%;
     left: 10px;
   }
+  .dots-style button {
+    top: -160px;
+  }
+  
 }
 @media (min-width: 425px) {
   .head .main-slider__item {
@@ -1576,6 +1601,9 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     width: 10px;
     height: 10px;
   }
+  .dots-style button {
+    top: -260px;
+  }
 }
 @media (min-width: 768px) {
   .head .container:before {
@@ -1600,6 +1628,10 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   .head .main-slider__subtitle {
     text-align: right;
     font-size: 22px;
+  }
+
+  .dots-style button {
+    top: -280px;
   }
 }
 @media (min-width: 1024px) {
@@ -1636,7 +1668,6 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     font-weight: 300;
   }
   .head .main-slider .slick-dots {
-    top: 254px;
     left: 30px;
   }
   .head .main-slider .slick-dots button {
@@ -1645,6 +1676,9 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
   .head .main-slider .slick-dots button:active {
     background-color: #006939;
+  }
+  .dots-style button {
+    top: -350px;
   }
 }
 @media (min-width: 1170px) {
@@ -3027,18 +3061,6 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   flex-direction: column;
   justify-content: center;
   list-style: none;
-}
-
-.dots-style button {
-  top: -350px;
-  background: #ddd4b7;
-  border: none;
-  border-radius: 50%;
-  font-size: 0;
-  height: 15px;
-  width: 15px;
-  margin-left: 15px;
-  outline: none;
 }
 
 .dots-style li[class="slick-active"] button {

@@ -54,3 +54,30 @@ Stack trace:
 
 2021-03-31T16:52:44+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
 
+2021-03-31T18:01:08+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:01:09+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:01:29+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:01:30+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:01:45+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:01:46+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:02:26+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:02:27+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc_functions.php на строке 17
+
+2021-03-31T18:39:47+00:00 CRITICAL Uncaught Error: Call to undefined function the_subtitle() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\single-product\title.php:23
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1549): wc_get_template('single-product/...')
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-hook.php(292): woocommerce_template_single_title('')
+#3 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(732): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includ в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\single-product\title.php на строке 23
+

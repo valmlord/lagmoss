@@ -4,42 +4,17 @@
     <div class="container">
       <div class="footer footer-inner">
         <nav class="footer__list">
-
         <?php
-              wp_nav_menu( [
-                'menu'            => 'footer_menu', 
-                'container'       => false, 
-                'menu_class'      => 'footer__list', 
-                'echo'            => true,
-                'fallback_cb'     => 'wp_page_menu',
-                'items_wrap'      => '<ul class="footer__list">%3$s</ul>',
-                'depth'           => 1
-              ] );
-          ?> 
-
-          <!-- <ul class="footer__menu">
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Акции</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Вакансии</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Статьи</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Покупателям</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Отзывы</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Материалы</a>
-            </li>
-            <li>
-              <a class="footer__link" href="javascript:void(0);">Вопрос - Ответ</a>
-            </li>
-          </ul> -->
+          wp_nav_menu( [
+            'menu'            => 'footer_menu', 
+            'container'       => false, 
+            'menu_class'      => 'footer__list', 
+            'echo'            => true,
+            'fallback_cb'     => 'wp_page_menu',
+            'items_wrap'      => '<ul class="footer__menu">%3$s</ul>',
+            'depth'           => 1
+          ] );
+        ?> 
         </nav>
 
         <div class="footer-categories">
