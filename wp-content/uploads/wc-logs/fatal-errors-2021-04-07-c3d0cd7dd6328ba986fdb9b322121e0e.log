@@ -1,0 +1,14 @@
+2021-04-07T08:47:52+00:00 CRITICAL Cannot redeclare lagmoss_add_sidebar_only_archive() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php:9) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 11
+
+2021-04-07T08:47:52+00:00 CRITICAL Cannot redeclare lagmoss_add_sidebar_only_archive() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php:9) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 11
+
+2021-04-07T08:59:31+00:00 CRITICAL syntax error, unexpected 'woocommerce_after_shop_loop_it' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 58
+
+2021-04-07T08:59:32+00:00 CRITICAL syntax error, unexpected 'woocommerce_after_shop_loop_it' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 58
+
+2021-04-07T08:59:32+00:00 CRITICAL syntax error, unexpected 'woocommerce_after_shop_loop_it' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 58
+
+2021-04-07T09:00:24+00:00 CRITICAL syntax error, unexpected 'catalog' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 55
+
+2021-04-07T09:00:24+00:00 CRITICAL syntax error, unexpected 'catalog' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 55
+
