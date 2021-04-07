@@ -164,11 +164,11 @@ abstract class SettingsBase {
 		$this->tabs = $tabs;
 
 		if ( ! $this->is_tab() ) {
-			add_action( 'current_screen', [ $this, 'setup_tabs_section' ] );
+			add_action( 'current_screen', [ $this, 'setup_tabs_section' ], 9 );
 		}
 
 		if ( $this->is_tab_active( $this ) ) {
-			add_action( 'plugins_loaded', [ $this, 'init' ] );
+			$this->init();
 		}
 	}
 
@@ -176,7 +176,6 @@ abstract class SettingsBase {
 	 * Init class.
 	 */
 	public function init() {
-		$this->load_plugin_textdomain();
 		$this->init_form_fields();
 		$this->init_settings();
 		$this->init_hooks();
@@ -186,6 +185,8 @@ abstract class SettingsBase {
 	 * Init class hooks.
 	 */
 	protected function init_hooks() {
+		add_action( 'plugins_loaded', [ $this, 'load_plugin_textdomain' ] );
+
 		add_filter(
 			'plugin_action_links_' . $this->plugin_basename(),
 			[ $this, 'add_settings_link' ],
@@ -215,6 +216,7 @@ abstract class SettingsBase {
 	 * Is this the main menu page.
 	 *
 	 * @return bool
+	 * @noinspection PhpPureAttributeCanBeAddedInspection
 	 */
 	protected function is_main_menu_page() {
 		// Main menu page should have empty string as parent slug.
@@ -432,7 +434,7 @@ abstract class SettingsBase {
 
 		?>
 		<a class="ctl-settings-tab<?php echo esc_attr( $active ); ?>" href="<?php echo esc_url( $url ); ?>">
-			<?php echo esc_html( $tab->tab_name() ); ?>
+			<?php echo esc_html( $tab->page_title() ); ?>
 		</a>
 		<?php
 	}
@@ -566,6 +568,7 @@ abstract class SettingsBase {
 	 * @param array $arguments Field arguments.
 	 *
 	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @noinspection HtmlUnknownAttribute
 	 */
 	private function print_check_box_field( array $arguments ) {
 		$value = (array) $this->get( $arguments['field_id'] );
@@ -625,6 +628,7 @@ abstract class SettingsBase {
 	 * @param array $arguments Field arguments.
 	 *
 	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @noinspection HtmlUnknownAttribute
 	 */
 	private function print_radio_field( array $arguments ) {
 		$value = $this->get( $arguments['field_id'] );
@@ -680,6 +684,7 @@ abstract class SettingsBase {
 	 * @param array $arguments Field arguments.
 	 *
 	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @noinspection HtmlUnknownAttribute
 	 */
 	private function print_select_field( array $arguments ) {
 		$value = $this->get( $arguments['field_id'] );
@@ -720,6 +725,7 @@ abstract class SettingsBase {
 	 * @param array $arguments Field arguments.
 	 *
 	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @noinspection HtmlUnknownAttribute
 	 */
 	private function print_multiple_select_field( array $arguments ) {
 		$value = $this->get( $arguments['field_id'] );

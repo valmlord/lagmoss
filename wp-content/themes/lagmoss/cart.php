@@ -9,7 +9,7 @@ Template Name: Сart
 ?>
 
 
-<section class="cart">
+<!-- <section class="cart">
         <div class="container">
 
             <div class="cart-header">
@@ -41,7 +41,7 @@ Template Name: Сart
         </div>
 
         </div>
-    </section>
+    </section> -->
 
     <?php
     get_footer();
