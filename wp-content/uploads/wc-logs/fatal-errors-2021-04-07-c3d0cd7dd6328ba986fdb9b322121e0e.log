@@ -12,3 +12,73 @@
 
 2021-04-07T09:00:24+00:00 CRITICAL syntax error, unexpected 'catalog' (T_STRING), expecting ',' or ';' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 55
 
+2021-04-07T20:09:08+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/widget-areas.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 33
+
+2021-04-07T20:09:08+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/widget-areas.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 33
+
+2021-04-07T20:10:11+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/enqueue-script-style.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 37
+
+2021-04-07T20:10:11+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/enqueue-script-style.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 37
+
+2021-04-07T20:10:46+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/helpers.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 41
+
+2021-04-07T20:10:47+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/helpers.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 41
+
+2021-04-07T20:11:02+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/includes/wc-functions.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 75
+
+2021-04-07T20:11:03+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/woocommerce/includes/wc-functions.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 75
+
+2021-04-07T20:11:23+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/metabox.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 11
+
+2021-04-07T20:11:23+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/metabox.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 11
+
+2021-04-07T20:12:25+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T20:12:25+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T20:12:29+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T20:12:29+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T20:12:43+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T20:12:44+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Lagmoss/wp-content/themes/lagmoss/includes/custom-fields-options/theme-optons.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 12
+
+2021-04-07T21:04:44+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:04:44+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:05:52+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:05:52+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:07:54+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:07:55+00:00 CRITICAL require_once(): Failed opening required '/includes/carbon-fields/vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 28
+
+2021-04-07T21:19:56+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:20:00+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:20:01+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:21:17+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:21:18+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:21:20+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:21:21+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\custom-fields-options\theme-optons.php на строке 29
+
+2021-04-07T21:33:27+00:00 CRITICAL Uncaught Error: Call to undefined function lagmoss_woocommerce_cart_link() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php:107
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(730): require_once()
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(676): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\index.php(6): get_header()
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php на строке 107
+

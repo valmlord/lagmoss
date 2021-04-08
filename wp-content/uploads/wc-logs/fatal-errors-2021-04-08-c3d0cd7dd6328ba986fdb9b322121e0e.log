@@ -1,0 +1,78 @@
+2021-04-08T07:10:54+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:10:55+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:11:21+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:11:22+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:11:34+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:11:56+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T07:11:56+00:00 CRITICAL syntax error, unexpected 'sale' (T_STRING) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 31
+
+2021-04-08T08:28:01+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 143
+
+2021-04-08T08:28:01+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 143
+
+2021-04-08T08:28:14+00:00 CRITICAL Cannot redeclare lagmoss_hide_title_shop() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php:44) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+
+2021-04-08T08:28:15+00:00 CRITICAL Cannot redeclare lagmoss_hide_title_shop() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php:44) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+
+2021-04-08T08:53:57+00:00 CRITICAL Cannot redeclare lagmoss_widgets_init() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php:8) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 30
+
+2021-04-08T08:53:58+00:00 CRITICAL Cannot redeclare lagmoss_widgets_init() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php:8) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 30
+
+2021-04-08T08:53:58+00:00 CRITICAL Cannot redeclare lagmoss_widgets_init() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php:8) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 30
+
+2021-04-08T08:55:07+00:00 CRITICAL Cannot redeclare lagmoss_widgets_init() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php:8) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 30
+
+2021-04-08T08:55:08+00:00 CRITICAL Cannot redeclare lagmoss_widgets_init() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php:8) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 30
+
+2021-04-08T08:55:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 19
+
+2021-04-08T08:55:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\includes\widget-areas.php на строке 19
+
+2021-04-08T10:02:38+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 39
+
+2021-04-08T10:02:39+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 39
+
+2021-04-08T10:02:39+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 39
+
+2021-04-08T10:03:00+00:00 CRITICAL Cannot redeclare lagmoss_custom_sales_badge() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php:25) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 37
+
+2021-04-08T10:03:01+00:00 CRITICAL Cannot redeclare lagmoss_custom_sales_badge() (previously declared in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php:25) в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions.php на строке 37
+
+2021-04-08T10:03:13+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 21
+
+2021-04-08T10:03:14+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\functions.php на строке 21
+
+2021-04-08T10:03:37+00:00 CRITICAL Uncaught Error: Call to undefined function lagmoss_woocommerce_cart_link() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php:107
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(730): require_once()
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(676): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\page.php(15): get_header()
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php на строке 107
+
+2021-04-08T10:46:36+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 72
+
+2021-04-08T10:46:36+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 72
+
+2021-04-08T11:22:01+00:00 CRITICAL syntax error, unexpected '5' (T_LNUMBER), expecting ',' or ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 73
+
+2021-04-08T11:22:02+00:00 CRITICAL syntax error, unexpected '5' (T_LNUMBER), expecting ',' or ')' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 73
+
+2021-04-08T11:22:14+00:00 CRITICAL syntax error, unexpected 'lagmoss_loop_item_title_div_op' (T_STRING), expecting '(' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+
+2021-04-08T11:22:14+00:00 CRITICAL syntax error, unexpected 'lagmoss_loop_item_title_div_op' (T_STRING), expecting '(' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+
+2021-04-08T11:23:22+00:00 CRITICAL syntax error, unexpected 'lagmoss_loop_item_title_open' (T_STRING), expecting '(' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+
+2021-04-08T11:23:23+00:00 CRITICAL syntax error, unexpected 'lagmoss_loop_item_title_open' (T_STRING), expecting '(' в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\includes\wc-functions-archive.php на строке 74
+

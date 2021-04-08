@@ -6,6 +6,8 @@ Author URI: http://www.korshukovstepan.ru/
 Description: Description
 Version: 1.0.0
 */
+
+
 @font-face {
   font-family: Geometria;
   src: url(assets/assets/fonts/Geometria.otf) format("otf");
@@ -2559,7 +2561,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer-copyright__description {
     margin-top: 0;
@@ -2601,7 +2603,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
     width: 230px;
   }
   .footer-copyright {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 15px;
   }
 }
@@ -2986,18 +2988,44 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 @media (min-width: 1024px) {
   .catalog-inner {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
   }
+
+  .catalog-items__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .catalog .accordion-container {
     display: none;
   }
   .catalog-nav {
     display: flex;
-    width: 20%;
+    width: 100%;
   }
   .catalog-items {
-    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
   }
+
+  .catalog-item {
+    width: auto;
+    position: relative;
+  }
+
+  .catalog-item h2 {
+    color: #006939;
+  }
+
+  .catalog-item img {
+    width: 470px;
+    height: 268px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
 }
 .cart-header {
   display: flex;

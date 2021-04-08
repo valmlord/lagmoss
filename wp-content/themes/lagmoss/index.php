@@ -132,8 +132,8 @@ Template Name: Главная страница
     </h3>
     <div class="categories__grid categories__grid--first" data-aos="zoom-in">
       <a
-        class="categories__link categories__link--chest"
-        href="<?php the_field('first_category_img'); ?>"
+        class="categories__link categories__link--chest hvr-grow"
+        href="<?php the_field('first_category_link'); ?>"
         style="background-image: url('<?php the_field('first_category_img'); ?>')"
       >
         <span class="categories__name">
@@ -143,8 +143,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--consoles"
-        href="javascript:void(0);"
+        class="categories__link categories__link--consoles hvr-grow"
+        href="<?php the_field('second_category_link');?>"
         style="background-image: url('<?php the_field('second_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -154,8 +154,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--chairs"
-        href="javascript:void(0);"
+        class="categories__link categories__link--chairs hvr-grow"
+        href="<?php the_field('third_category_link');?>"
         style="background-image: url('<?php the_field('third_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -165,8 +165,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--racks"
-        href="javascript:void(0);"
+        class="categories__link categories__link--racks hvr-grow"
+        href="<?php the_field('fourth_category_link');?>"
         style="background-image: url('<?php the_field('fourth_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -176,8 +176,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--coffee"
-        href="javascript:void(0);"
+        class="categories__link categories__link--coffee hvr-grow"
+        href="<?php the_field('fifth_category_link');?>"
         style="background-image: url('<?php the_field('fifth_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -189,8 +189,8 @@ Template Name: Главная страница
     </div>
     <div class="categories__grid categories__grid--second" data-aos="zoom-in">
       <a
-        class="categories__link categories__link--seats"
-        href="javascript:void(0);"
+        class="categories__link categories__link--seats hvr-grow"
+        href="<?php the_field('seven_category_link');?>"
         style="background-image: url('<?php the_field('seven_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -200,8 +200,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--tv-table"
-        href="javascript:void(0);"
+        class="categories__link categories__link--tv-table hvr-grow"
+        href="<?php the_field('eight_category_link');?>"
         style="background-image: url('<?php the_field('eighth_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -211,8 +211,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--shelfs"
-        href="javascript:void(0);"
+        class="categories__link categories__link--shelfs hvr-grow"
+        href="<?php the_field('nine_category_link');?>"
         style="background-image: url('<?php the_field('nine_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -222,8 +222,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--wardrobe"
-        href="javascript:void(0);"
+        class="categories__link categories__link--wardrobe hvr-grow"
+        href="<?php the_field('ten_category_link');?>"
         style="background-image: url('<?php the_field('ten_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -233,8 +233,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--dinner"
-        href="javascript:void(0);"
+        class="categories__link categories__link--dinner hvr-grow"
+        href="<?php the_field('six_category_link');?>"
         style="background-image: url('<?php the_field('six_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -246,8 +246,8 @@ Template Name: Главная страница
     </div>
     <div class="categories__grid categories__grid--third" data-aos="zoom-in">
       <a
-        class="categories__link categories__link--hangers"
-        href="javascript:void(0);"
+        class="categories__link categories__link--hangers hvr-grow"
+        href="<?php the_field('eleven_category_link'); ?>"
         style="background-image: url('<?php the_field('eleven_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -257,8 +257,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--shoe-cabinets"
-        href="javascript:void(0);"
+        class="categories__link categories__link--shoe-cabinets hvr-grow"
+        href="<?php the_field('twelve_category_img'); ?>"
         style="background-image: url('<?php the_field('twelve_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -268,8 +268,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--bar-chairs"
-        href="javascript:void(0);"
+        class="categories__link categories__link--bar-chairs hvr-grow"
+        href="<?php the_field('thirteenth_category_link'); ?>"
         style="background-image: url('<?php the_field('thirteenth_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -279,8 +279,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--table"
-        href="javascript:void(0);"
+        class="categories__link categories__link--table hvr-grow"
+        href="<?php the_field('fourteenth_category_link'); ?>"
         style="background-image: url('<?php the_field('fourteenth_category_img'); ?>')"
         >
         <span class="categories__name">
@@ -290,8 +290,8 @@ Template Name: Главная страница
         </span>
       </a>
       <a
-        class="categories__link categories__link--desk"
-        href="javascript:void(0);"
+        class="categories__link categories__link--desk hvr-grow"
+        href="<?php the_field('fifteenth_category_link'); ?>"
         style="background-image: url('<?php the_field('fifteenth_category_img'); ?>')"
         >
         <span class="categories__name">

@@ -104,10 +104,7 @@
               </div>
             </div>
           </nav>
-          <a class="cart" href="cart.html">
-            <span class="icon-cart"></span>
-            <p class="cart-number">12</p>
-          </a>
+          <?php lagmoss_woocommerce_cart_link();?>
           <div class="hamburger">
             <span></span>
             <span></span>
