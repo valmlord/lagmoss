@@ -78,4 +78,10 @@ if ( ! function_exists( 'lagmoss_woocommerce_header_cart' ) ) {
 	}
 }
 
-?>
+
+// Add to cart 
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'lagmoss_woo_custom_cart_button_text' );
+add_filter( 'woocommerce_product_add_to_cart_text', 'lagmoss_woo_custom_cart_button_text' );   
+function lagmoss_woo_custom_cart_button_text() {
+        return __( '', 'woocommerce' );
+}

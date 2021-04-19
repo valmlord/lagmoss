@@ -61,18 +61,22 @@ Version: 1.0.0
   font-style: normal;
   font-display: block;
 }
-[class*=" icon-"],
-[class^="icon-"] {
-  font-family: icomoon !important;
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-up_arrow:before {
   content: "\e900";
 }
@@ -106,6 +110,10 @@ Version: 1.0.0
 .icon-mail:before {
   content: "\e90a";
 }
+.icon-add:before {
+  content: "\e90b";
+}
+
 .slick-slider {
   position: relative;
   display: block;
@@ -3002,12 +3010,12 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
   .catalog-nav {
     display: flex;
-    width: 100%;
+    width: 105%;
   }
   .catalog-items {
     display: flex;
     justify-content: space-between;
-    width: 98%;
+    width: 94%;
   }
 
   .catalog-item {
@@ -3020,12 +3028,33 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
 
   .catalog-item img {
-    width: 470px;
-    height: 268px;
+    width: 450px;
+    height: 260px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  
+
+  .catalog-item__card-link {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .catalog-item__card-link .amount {
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .catalog-item__card-link a {
+    color: black;
+
+  }
+
+  .catalog-item__card-link .icon-add {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+    
 }
 .cart-header {
   display: flex;

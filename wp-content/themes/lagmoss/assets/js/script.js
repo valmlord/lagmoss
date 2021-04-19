@@ -2509,24 +2509,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var tabs = function tabs(headerSelector, tabSelector, contentSelector, activeClass) {
-  var header = document.querySelector(headerSelector),
-      tab = document.querySelectorAll(tabSelector),
-      content = document.querySelectorAll(contentSelector);
+const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display = 'block') => {
+  const header = document.querySelector(headerSelector),
+        tab = document.querySelectorAll(tabSelector),
+        content = document.querySelectorAll(contentSelector);
 
   function hideTabContent() {
-    content.forEach(function (item) {
-      item.style.display = "none";
-    });
-    tab.forEach(function (item) {
-      item.classList.remove(activeClass);
-    });
+      content.forEach(item => {
+          item.style.display = 'none';
+      });
+
+      tab.forEach(item => {
+          item.classList.remove(activeClass);
+      });
   }
 
-  function showTabContent() {
-    var i = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-    content[i].style.display = "block";
-    tab[i].classList.add(activeClass);
+  function showTabContent(i = 0) {
+      content[i].style.display = display;
+      tab[i].classList.add(activeClass);
   }
 
   hideTabContent();

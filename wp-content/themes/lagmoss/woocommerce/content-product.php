@@ -1,5 +1,7 @@
 <?php
 /**
+ * 
+ * 
  * The template for displaying product content within loops
  *
  * This template can be overridden by copying it to yourtheme/woocommerce/content-product.php.
@@ -15,6 +17,8 @@
  * @version 3.6.0
  */
 
+ 
+
 defined( 'ABSPATH' ) || exit;
 
 global $product;
@@ -24,7 +28,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
+<li <?php wc_product_class( '.catalog-item', $product ); ?>>
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.

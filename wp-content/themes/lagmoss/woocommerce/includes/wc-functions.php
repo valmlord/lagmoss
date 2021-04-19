@@ -29,7 +29,7 @@ add_filter( 'woocommerce_sale_flash', 'lagmoss_custom_sales_badge' );
 function lagmoss_custom_sales_badge() {
 $img = '<img src="http://lagmoss/wp-content/themes/lagmoss/assets/icons/hot.svg" style="
 position: absolute;
-top: 15px;
+top: -242px;
 right: 15px;
 z-index: 1;
 left: 10px;

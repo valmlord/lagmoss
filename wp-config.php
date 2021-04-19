@@ -86,7 +86,7 @@ define('WPLANG', 'ru_RU');
  *
  * @link https://ru.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Это всё, дальше не редактируем. Успехов! */
 

@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-add_action( 'woocommerce_before_main_content', 'lagmoss_add_sidebar_only_archive', 50 );
+ add_action( 'woocommerce_before_main_content', 'lagmoss_add_sidebar_only_archive', 50 );
 function lagmoss_add_sidebar_only_archive() {
 	if ( ! is_product() ) {
 		woocommerce_get_sidebar();
@@ -52,7 +52,7 @@ function lagmoss_hide_title_shop( $hide ) {
 add_filter( 'post_class', 'lagmoss_add_class_loop_item' );
 function lagmoss_add_class_loop_item($clasess){
 	if(is_shop() || is_product_taxonomy()){
-		$clasess[] = 'catalog-item';
+		$clasess[] = 'catalog-item hvr-grow';
 	}
 	return $clasess;
 }
@@ -78,19 +78,12 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'lagmoss_loop_item_title_
 	<?php
 }
 
-add_action( 'woocommerce_after_shop_loop_item_title', 'lagmoss_loop_item_title_close', 5); 
-	function lagmoss_loop_item_title_close() {
-	?>
-	</div>
-	<?php
-}
-
-remove_action( 'woocommerce_template_loop_add_to_cart', 'lagmoss_template_loop_add_to_cart', 15);
 
 add_action( 'woocommerce_after_shop_loop_item', 'lagmoss_after_shop_loop_item', 10);
 function lagmoss_after_shop_loop_item() {
 	?>
+		</div>
 	<?php
-}
+} 
 
 

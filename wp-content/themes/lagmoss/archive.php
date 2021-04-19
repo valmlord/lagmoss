@@ -2,6 +2,8 @@
 /**
  * The template for displaying archive pages
  *
+ * 
+ * 
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package lagmoss
@@ -9,7 +11,7 @@
 
 get_header();
 ?>
-
+<div class="container">
 	<main id="primary" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
@@ -45,7 +47,9 @@ get_header();
 		?>
 
 	</main><!-- #main -->
-
+	<?php
+	get_sidebar();
+	?>
+</div>
 <?php
-get_sidebar();
 get_footer();
