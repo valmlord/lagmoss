@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-18 10:20:12+0000\n"
+"PO-Revision-Date: 2021-04-24 09:16:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3333,6 +3333,10 @@ msgstr "Максимальное количество выдаваемых эл�
 msgid "Get notifications about store activity, including new orders and product reviews directly on your mobile devices with the Woo app."
 msgstr "Получайте уведомления об активности в магазине, в том числе о размещении новых заказов и отзывов о товарах, прямо на мобильные устройства благодаря приложению Woo."
 
+#: packages/woocommerce-admin/src/Notes/StartDropshippingBusiness.php:68
+msgid "The ability to add inventory without having to deal with production, stocking, or fulfilling orders may seem like a dream. But is dropshipping worth it? Let’s explore some of the advantages and disadvantages to help you make the best decision for your business."
+msgstr "Продажа товаров без необходимости заниматься производством, хранением и выполнением заказов — что может быть лучше? Но стоит ли заниматься прямыми поставками? Давайте рассмотрим преимущества и недостатки этого способа продаж, которые помогут принять оптимальное решение на благо вашего бизнеса."
+
 #: packages/woocommerce-admin/src/Notes/Note.php:548
 msgid "The admin note layout has a wrong prop value."
 msgstr "Макет примечания администратора включает неверное значение свойства."
@@ -3340,10 +3344,6 @@ msgstr "Макет примечания администратора включ�
 #: packages/woocommerce-admin/src/Notes/NeedSomeInspiration.php:67
 msgid "See success stories"
 msgstr "Прочитайте истории успеха"
-
-#: packages/woocommerce-admin/src/Notes/StartDropshippingBusiness.php:68
-msgid "The ability to add inventory without having to deal with production, stocking, or fulfilling orders may seem like a dream. But is dropshipping worth it? Let’s explore some of the advantages and disadvantages to help you make the best decision for your business."
-msgstr "Продажа товаров без необходимости заниматься производством, хранением и выполнением заказов — что может быть лучше? Но стоит ли заниматься прямыми поставками? Давайте рассмотрим преимущества и недостатки этого способа продаж, которые помогут принять оптимальное решение на благо вашего бизнеса."
 
 #: packages/woocommerce-admin/src/Notes/FirstProduct.php:69
 msgid "Do you need help with adding your first product?"

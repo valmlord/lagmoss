@@ -258,7 +258,7 @@ Template Name: Главная страница
       </a>
       <a
         class="categories__link categories__link--shoe-cabinets hvr-grow"
-        href="<?php the_field('twelve_category_img'); ?>"
+        href="<?php the_field('twelve_category_link'); ?>"
         style="background-image: url('<?php the_field('twelve_category_img'); ?>')"
         >
         <span class="categories__name">

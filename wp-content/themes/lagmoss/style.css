@@ -2619,12 +2619,18 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
+  font-weight: 500;
 }
+
+.breadcrumbs-inner a{
+  color: #1b1b1b;
+}
+
 .breadcrumbs__list {
   display: flex;
   font-size: 12px;
   align-items: center;
-  font-weight: 500;
+
 }
 .breadcrumbs__list-item a {
   color: #1b1b1b;

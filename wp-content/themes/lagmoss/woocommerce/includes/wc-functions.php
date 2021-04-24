@@ -13,7 +13,7 @@ function lagmoss_add_breadcrumbs(){
             <div class="breadcrumbs-inner">
             <?php
 	        $args = array(
-			'delimiter' => '<span class="icon-dashicon">', 
+			'delimiter' => ' > ', 
 	        );
             ?>
             <?php woocommerce_breadcrumb($args)?>
@@ -29,7 +29,7 @@ add_filter( 'woocommerce_sale_flash', 'lagmoss_custom_sales_badge' );
 function lagmoss_custom_sales_badge() {
 $img = '<img src="http://lagmoss/wp-content/themes/lagmoss/assets/icons/hot.svg" style="
 position: absolute;
-top: -242px;
+top: -232px;
 right: 15px;
 z-index: 1;
 left: 10px;
