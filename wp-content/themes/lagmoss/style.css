@@ -10,42 +10,42 @@ Version: 1.0.0
 
 @font-face {
   font-family: Geometria;
-  src: url(assets/assets/fonts/Geometria.otf) format("otf");
+  src: url(assets/assets/fonts/Geometria.ttf) format("ttf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Geometria;
-  src: url(assets/assets/fonts/Geometria-Light.otf) format("otf");
+  src: url(assets/assets/fonts/Geometria-Light.ttf) format("ttf");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Geometria;
-  src: url(assets/assets/fonts/Geometria-Medium.otf) format("otf");
+  src: url(assets/assets/fonts/Geometria-Medium.ttf) format("ttf");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Geometria;
-  src: url(assets/assets/fonts/Geometria-Heavy.otf) format("otf");
+  src: url(assets/assets/fonts/Geometria-Heavy.ttf) format("ttf");
   font-weight: 700;
   font-style: bold;
   font-display: swap;
 }
 @font-face {
   font-family: Geometria;
-  src: url(assets/assets/fonts/Geometria-Bold.otf) format("otf");
+  src: url(assets/assets/fonts/Geometria-Bold.ttf) format("ttf");
   font-weight: 800;
   font-style: bold;
   font-display: swap;
 }
 @font-face {
   font-family: Geometria;
-  src: url(assets/fonts/Geometria-ExtaBlack.otf) format("otf");
+  src: url(assets/fonts/Geometria-ExtaBlack.ttf) format("ttf");
   font-weight: 900;
   font-style: bold;
   font-display: swap;
