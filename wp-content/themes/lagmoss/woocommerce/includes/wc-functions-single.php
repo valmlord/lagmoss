@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 add_action ( 'woocommerce_before_single_product', 'lagmoss_wrapper_product_start', 5 );
 function lagmoss_wrapper_product_start(){
