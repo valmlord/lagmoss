@@ -1,0 +1,35 @@
+2021-04-29T08:20:37+00:00 CRITICAL Uncaught Error: Call to undefined function lagmoss_woocommerce_cart_link() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php:107
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(730): require_once()
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(676): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\archive-product.php(20): get_header('shop')
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php на строке 107
+
+2021-04-29T13:01:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _n(), 2 passed in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\single-product\meta.php on line 34 and at least 3 expected in C:\OpenServer\domains\Lagmoss\wp-includes\l10n.php:466
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\single-product\meta.php(34): _n(1, 'woocommerce')
+#1 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1591): wc_get_template('single-product/...')
+#3 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-hook.php(292): woocommerce_template_single_meta('')
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 C:\OpenServer\domains\Lagmoss\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\OpenServer\domains\Lagmoss\wp-content\themes\l в C:\OpenServer\domains\Lagmoss\wp-includes\l10n.php на строке 466
+
+2021-04-29T14:59:07+00:00 CRITICAL Uncaught Error: Call to undefined method DateTime::format() in C:\OpenServer\domains\Lagmoss\wp-includes\functions.php:50
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-query.php(4349): mysql2date('d.m.y', '2021-04-24 18:2...', false)
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-query.php(4298): WP_Query->generate_postdata(Object(WP_Post))
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#3 C:\OpenServer\domains\Lagmoss\wp-includes\query.php(975): WP_Query->the_post()
+#4 C:\OpenServer\domains\Lagmoss\wp-content\plugins\woocommerce\templates\archive-product.php(63): the_post()
+#5 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-includes\functions.php на строке 50
+

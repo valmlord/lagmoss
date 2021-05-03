@@ -1,0 +1,24 @@
+2021-04-27T10:30:51+00:00 CRITICAL Uncaught Error: Call to undefined function lagmoss_woocommerce_cart_link() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php:107
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(730): require_once()
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(676): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\woocommerce\single-product.php(22): get_header('shop')
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php на строке 107
+
+2021-04-27T10:31:02+00:00 CRITICAL Uncaught Error: Call to undefined function lagmoss_woocommerce_cart_link() in C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php:107
+Stack trace:
+#0 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(730): require_once()
+#1 C:\OpenServer\domains\Lagmoss\wp-includes\template.php(676): load_template('C:\\OpenServer\\d...', true, Array)
+#2 C:\OpenServer\domains\Lagmoss\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\index.php(6): get_header()
+#4 C:\OpenServer\domains\Lagmoss\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Lagmoss\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Lagmoss\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Lagmoss\wp-content\themes\lagmoss\header.php на строке 107
+

@@ -10,7 +10,7 @@ function lagmoss_add_sidebar_only_archive() {
 	}
 }
 
-add_action( 'woocommerce_before_main_content', 'lagmoss_archive_wrapper_start', 40 );
+ add_action( 'woocommerce_before_main_content', 'lagmoss_archive_wrapper_start', 40 );
 function lagmoss_archive_wrapper_start(){
 ?>	
 	<section class="catalog">
@@ -38,7 +38,7 @@ function lagmoss_archive_content_wrapper_end(){
 ?>	
 	</div>
 <?php
-}
+} 
 
 add_filter( 'woocommerce_show_page_title', 'lagmoss_hide_title_shop' );
 function lagmoss_hide_title_shop( $hide ) {
