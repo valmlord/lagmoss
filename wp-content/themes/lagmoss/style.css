@@ -2890,19 +2890,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   color: #1b1b1b;
   font-size: 16px;
   font-weight: 500;
-}
-
-
-
-.catalog-link:after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 30px;
-  height: 2px;
-  background-color: #006939;
-  display: block;
+  border-bottom: 2px solid #006939;
 }
 
 .catalog-item {
@@ -3037,8 +3025,8 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   }
 
   .catalog-item img {
-    width: 450px;
-    height: 260px;
+    width: 370px;
+    height: 211px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
@@ -3194,8 +3182,16 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   border-radius: 5px;
 }
 
-.up-sells {
+.products .columns-4 {
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products columns-4 .product-type-simple {
+  width: 26%;
 }
 
 .product_title {
